@@ -1,0 +1,9 @@
+---
+slug: index.html
+pageKey: home
+---
+<h1>{{ site | loc("name") }}</h1>
+{% if site | loc("subtitle") %}<p>{{ site | loc("subtitle") }}</p>{% endif %}
+{% if site.date %}<p><time datetime="{{ site.date }}">{{ site.date }}</time>{% if site | loc("venueName") %} · {{ site | loc("venueName") }}{% endif %}</p>{% endif %}
+{% if site.registrationUrl %}<p><a role="button" href="{{ site.registrationUrl }}">{{ L.nav.register }}</a></p>{% endif %}
+{{ site | loc("about") | safe }}

@@ -1,0 +1,12 @@
+tw:
+  nav: { home: 首頁, agenda: 議程, speakers: 講者, venue: 會場交通, register: 報名 }
+  agenda: { tba: （待定）, moderator: 主持人, discussant: 評論人, presenter: 報告人, paper: 文章連結 }
+  speakers: { role_speaker: 報告人, role_discussant: 評論人, role_moderator: 主持人, session: 場次 }
+  venue: { heading: 會場與交通 }
+  switchLanguage: English
+en:
+  nav: { home: Home, agenda: Agenda, speakers: Speakers, venue: Venue, register: Register }
+  agenda: { tba: (TBA), moderator: Moderator, discussant: Discussant, presenter: Presenter, paper: Paper }
+  speakers: { role_speaker: Presenter, role_discussant: Discussant, role_moderator: Moderator, session: Session }
+  venue: { heading: Venue & Directions }
+  switchLanguage: 華語

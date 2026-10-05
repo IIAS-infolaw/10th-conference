@@ -1,0 +1,17 @@
+{
+  "name": "iias-conference",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "sync": "node scripts/sync-sheet.js"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "~3.1.6",
+    "@11ty/eleventy-fetch": "~5.1.3",
+    "@picocss/pico": "2.1.1",
+    "csv-parse": "~7.0.3",
+    "js-yaml": "~4.3.2"
+  }
+}

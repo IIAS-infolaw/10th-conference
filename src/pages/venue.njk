@@ -1,0 +1,9 @@
+---
+slug: venue/index.html
+pageKey: venue
+---
+<h1>{{ L.venue.heading }}</h1>
+{% if site | loc("venueName") %}<p><strong>{{ site | loc("venueName") }}</strong></p>{% endif %}
+{% if site | loc("address") %}<p>{{ site | loc("address") }}</p>{% endif %}
+{% if site.mapEmbedUrl %}<iframe src="{{ site.mapEmbedUrl }}" loading="lazy" title="{{ L.venue.heading }}"></iframe>{% endif %}
+{{ site | loc("directions") | safe }}

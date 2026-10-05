@@ -1,0 +1,29 @@
+---
+slug: agenda/index.html
+pageKey: agenda
+---
+<h1>{{ L.nav.agenda }}</h1>
+{% for block in program.blocks %}
+{% if block.kind == "simple" %}
+<section>
+  <h2><time>{{ block.startsAt | timeRange(block.endsAt) }}</time> {{ block | loc("title") }}</h2>
+</section>
+{% else %}
+<section>
+  <h2><time>{{ block.startsAt | timeRange(block.endsAt) }}</time> {{ block.session | loc("name") }}</h2>
+  {% if block.session.moderator %}<p>{{ L.agenda.moderator }}：{{ block.session.moderator | loc("name") }}</p>{% endif %}
+  <ol>
+    {% for talk in block.talks %}
+    <li>
+      <h3>{{ (talk | loc("title")) or L.agenda.tba }}</h3>
+      {% if talk.speakers.length %}
+      <p>{{ L.agenda.presenter }}：{% for p in talk.speakers %}{{ p | loc("name") }}{% set o = p | loc("org") %}{% set t = p | loc("title") %}{% if o or t %}（{{ o }}{% if o and t %} · {% endif %}{{ t }}）{% endif %}{% if not loop.last %}、{% endif %}{% endfor %}</p>
+      {% endif %}
+      {% if talk.discussant %}<p>{{ L.agenda.discussant }}：{{ talk.discussant | loc("name") }}</p>{% endif %}
+      {% if talk.paperUrl %}<p><a href="{{ talk.paperUrl }}">{{ L.agenda.paper }}</a></p>{% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
+{% endfor %}

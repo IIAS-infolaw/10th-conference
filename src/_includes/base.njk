@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ locale.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ L.nav[pageKey] }} · {{ site | loc("name") }}</title>
+  <link rel="stylesheet" href="/css/pico.classless.min.css">
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="alternate" hreflang="{{ altLocale.lang }}" href="{{ altUrl }}">
+</head>
+<body>
+  <header>
+    <strong>{{ site | loc("name") }}</strong>
+    <nav>
+      <ul>
+        <li><a href="/{{ locale.prefix }}">{{ L.nav.home }}</a></li>
+        <li><a href="/{{ locale.prefix }}agenda/">{{ L.nav.agenda }}</a></li>
+        <li><a href="/{{ locale.prefix }}speakers/">{{ L.nav.speakers }}</a></li>
+        <li><a href="/{{ locale.prefix }}venue/">{{ L.nav.venue }}</a></li>
+        {% if site.registrationUrl %}<li><a role="button" href="{{ site.registrationUrl }}">{{ L.nav.register }}</a></li>{% endif %}
+        <li><a href="{{ altUrl }}" hreflang="{{ altLocale.lang }}">{{ L.switchLanguage }}</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+{{ content | safe }}
+  </main>
+  <footer>
+    {% if site | loc("organizer") %}<p>{{ site | loc("organizer") }}</p>{% endif %}
+    {% if site.contactEmail %}<p><a href="mailto:{{ site.contactEmail }}">{{ site.contactEmail }}</a></p>{% endif %}
+  </footer>
+</body>
+</html>

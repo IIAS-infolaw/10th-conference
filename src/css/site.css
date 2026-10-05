@@ -1,0 +1,4 @@
+header nav ul { display: flex; flex-wrap: wrap; gap: 1rem; list-style: none; padding: 0; }
+main section { margin-block-end: 2rem; }
+main time { font-variant-numeric: tabular-nums; margin-inline-end: 0.5rem; }
+iframe { width: 100%; aspect-ratio: 4 / 3; border: 0; }

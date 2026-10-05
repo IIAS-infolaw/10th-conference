@@ -1,0 +1,4 @@
+[
+  { "code": "tw", "lang": "zh-Hant-TW", "prefix": "", "label": "華語" },
+  { "code": "en", "lang": "en-TW", "prefix": "en/", "label": "English" }
+]

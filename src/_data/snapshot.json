@@ -1,0 +1,380 @@
+{
+  "議程表": [
+    {
+      "開始時間": "08:30",
+      "結束時間": "09:00",
+      "類型": "流程",
+      "場次": "",
+      "題目": "報到",
+      "Topic": "Check-in",
+      "報告人1": "",
+      "報告人2": "",
+      "評論人": "",
+      "文章連結": ""
+    },
+    {
+      "開始時間": "09:00",
+      "結束時間": "09:10",
+      "類型": "流程",
+      "場次": "",
+      "題目": "開幕致詞",
+      "Topic": "Opening Remarks",
+      "報告人1": "",
+      "報告人2": "",
+      "評論人": "",
+      "文章連結": ""
+    },
+    {
+      "開始時間": "09:10",
+      "結束時間": "10:20",
+      "類型": "議程",
+      "場次": "0",
+      "題目": "A Sociological Critique of Generative AI",
+      "Topic": "A Sociological Critique of Generative AI",
+      "報告人1": "Deborah Lupton",
+      "報告人2": "",
+      "評論人": "",
+      "文章連結": ""
+    },
+    {
+      "開始時間": "10:20",
+      "結束時間": "10:30",
+      "類型": "休息",
+      "場次": "",
+      "題目": "中場休息",
+      "Topic": "Break",
+      "報告人1": "",
+      "報告人2": "",
+      "評論人": "",
+      "文章連結": ""
+    },
+    {
+      "開始時間": "10:30",
+      "結束時間": "11:55",
+      "類型": "議程",
+      "場次": "1",
+      "題目": "",
+      "Topic": "",
+      "報告人1": "邱文聰",
+      "報告人2": "",
+      "評論人": "陳弘儒",
+      "文章連結": ""
+    },
+    {
+      "開始時間": "10:30",
+      "結束時間": "11:55",
+      "類型": "議程",
+      "場次": "1",
+      "題目": "AI偏誤：透過社會網絡視角解析的本體",
+      "Topic": "AI Bias: An Ontology through the Lens of Social Network",
+      "報告人1": "黃韋菁",
+      "報告人2": "吳齊殷",
+      "評論人": "",
+      "文章連結": ""
+    },
+    {
+      "開始時間": "11:55",
+      "結束時間": "13:00",
+      "類型": "休息",
+      "場次": "",
+      "題目": "午餐時間",
+      "Topic": "Lunch",
+      "報告人1": "",
+      "報告人2": "",
+      "評論人": "",
+      "文章連結": ""
+    },
+    {
+      "開始時間": "13:00",
+      "結束時間": "14:00",
+      "類型": "議程",
+      "場次": "2",
+      "題目": "",
+      "Topic": "",
+      "報告人1": "吳全峰",
+      "報告人2": "",
+      "評論人": "張兆恬",
+      "文章連結": ""
+    },
+    {
+      "開始時間": "14:00",
+      "結束時間": "14:25",
+      "類型": "議程",
+      "場次": "2",
+      "題目": "",
+      "Topic": "",
+      "報告人1": "李宣緯",
+      "報告人2": "",
+      "評論人": "葉明叡",
+      "文章連結": ""
+    },
+    {
+      "開始時間": "14:25",
+      "結束時間": "14:35",
+      "類型": "休息",
+      "場次": "",
+      "題目": "中場休息",
+      "Topic": "Break",
+      "報告人1": "",
+      "報告人2": "",
+      "評論人": "",
+      "文章連結": ""
+    },
+    {
+      "開始時間": "14:35",
+      "結束時間": "16:00",
+      "類型": "議程",
+      "場次": "3",
+      "題目": "",
+      "Topic": "",
+      "報告人1": "陳舜伶",
+      "報告人2": "",
+      "評論人": "洪淳琦",
+      "文章連結": ""
+    },
+    {
+      "開始時間": "14:35",
+      "結束時間": "16:00",
+      "類型": "議程",
+      "場次": "3",
+      "題目": "",
+      "Topic": "",
+      "報告人1": "彭松嶽",
+      "報告人2": "李姿儀",
+      "評論人": "李梅君",
+      "文章連結": ""
+    },
+    {
+      "開始時間": "16:00",
+      "結束時間": "16:20",
+      "類型": "休息",
+      "場次": "",
+      "題目": "茶歇時間",
+      "Topic": "Tea Break",
+      "報告人1": "",
+      "報告人2": "",
+      "評論人": "",
+      "文章連結": ""
+    },
+    {
+      "開始時間": "16:20",
+      "結束時間": "17:00",
+      "類型": "議程",
+      "場次": "4",
+      "題目": "數位廣告驅動商業模式之資料治理：從歐盟臉書「付費或同意」案出發",
+      "Topic": "",
+      "報告人1": "謝長江",
+      "報告人2": "",
+      "評論人": "林家暘",
+      "文章連結": ""
+    },
+    {
+      "開始時間": "17:00",
+      "結束時間": "17:35",
+      "類型": "議程",
+      "場次": "4",
+      "題目": "Ambient intelligence and regulation: some legal metamorphoses through the lens of two dichotomies",
+      "Topic": "Ambient intelligence and regulation: some legal metamorphoses through the lens of two dichotomies",
+      "報告人1": "陳薏婷",
+      "報告人2": "",
+      "評論人": "",
+      "文章連結": ""
+    }
+  ],
+  "講者": [
+    {
+      "姓名": "Deborah Lupton",
+      "Name": "Deborah Lupton",
+      "服務單位": "澳大利亞雪梨新南威爾士大學藝術與社會科學院",
+      "Organization": "University of New South Wales Sydney",
+      "職稱": "SHARP教授",
+      "Title": "SHARP Professor",
+      "連結": ""
+    },
+    {
+      "姓名": "邱文聰",
+      "Name": "Wen-Tsong Chiou",
+      "服務單位": "中央研究院法律學研究所",
+      "Organization": "Institutum Iurisprudentiae, Academia Sinica",
+      "職稱": "研究員",
+      "Title": "Research Professor",
+      "連結": ""
+    },
+    {
+      "姓名": "陳舜伶",
+      "Name": "Shun-Ling Chen",
+      "服務單位": "中央研究院法律學研究所",
+      "Organization": "Institutum Iurisprudentiae, Academia Sinica",
+      "職稱": "副研究員",
+      "Title": "Associate Research Professor",
+      "連結": ""
+    },
+    {
+      "姓名": "吳全峰",
+      "Name": "Chuan-Feng Wu",
+      "服務單位": "中央研究院法律學研究所",
+      "Organization": "Institutum Iurisprudentiae, Academia Sinica",
+      "職稱": "副研究員",
+      "Title": "Associate Research Professor",
+      "連結": ""
+    },
+    {
+      "姓名": "陳弘儒",
+      "Name": "Hung-Ju Chen",
+      "服務單位": "中央研究院歐美研究所",
+      "Organization": "Institute of European and American Studies, Academia Sinica",
+      "職稱": "助研究員",
+      "Title": "Assistant Research Professor",
+      "連結": ""
+    },
+    {
+      "姓名": "黃韋菁",
+      "Name": "Andrea Wei-Ching Huang",
+      "服務單位": "中央研究院社會學研究所",
+      "Organization": "Institute of Sociology, Academia Sinica",
+      "職稱": "AI社會學專案研究經理",
+      "Title": "AI Sociology Project Research Manager",
+      "連結": ""
+    },
+    {
+      "姓名": "吳齊殷",
+      "Name": "Chyi-In Wu",
+      "服務單位": "中央研究院社會學研究所",
+      "Organization": "Institute of Sociology, Academia Sinica",
+      "職稱": "研究員",
+      "Title": "Research Fellow",
+      "連結": ""
+    },
+    {
+      "姓名": "張兆恬",
+      "Name": "Chao-Tien Chang",
+      "服務單位": "國立臺灣大學國家發展研究所",
+      "Organization": "Graduate Institute of National Development, National Taiwan University",
+      "職稱": "副教授",
+      "Title": "Associate Professor",
+      "連結": ""
+    },
+    {
+      "姓名": "李宣緯",
+      "Name": "Wayne Hsuan-Wei Lee",
+      "服務單位": "美國理海大學健康學院",
+      "Organization": "College of Health, Lehigh University",
+      "職稱": "助理教授",
+      "Title": "Assistant Professor",
+      "連結": ""
+    },
+    {
+      "姓名": "葉明叡",
+      "Name": "Ming-Jui Yeh",
+      "服務單位": "國立臺灣大學公共衛生學院",
+      "Organization": "Department of Public Health, College of Public Health, National Taiwan University",
+      "職稱": "副教授",
+      "Title": "Associate Professor",
+      "連結": ""
+    },
+    {
+      "姓名": "洪淳琦",
+      "Name": "Chun-Chi Hung",
+      "服務單位": "國立清華大學科技法律研究所",
+      "Organization": "Institute of Law for Science and Technology, National Tsing Hua University",
+      "職稱": "副教授",
+      "Title": "Associate Professor",
+      "連結": ""
+    },
+    {
+      "姓名": "莊庭瑞",
+      "Name": "Tyng-Ruey Chuang",
+      "服務單位": "中央研究院資訊科學研究所",
+      "Organization": "Institute of Information Science",
+      "職稱": "副研究員",
+      "Title": "Associate Research Fellow",
+      "連結": ""
+    },
+    {
+      "姓名": "彭松嶽",
+      "Name": "Sung-Yueh Perng",
+      "服務單位": "國立陽明交通大學科技與社會研究所",
+      "Organization": "Institute of Science, Technology and Society, National Yang Ming Chiao Tung University",
+      "職稱": "副教授",
+      "Title": "Associate Professor",
+      "連結": ""
+    },
+    {
+      "姓名": "李梅君",
+      "Name": "Mei-Chun Lee",
+      "服務單位": "中央研究院民族學研究所",
+      "Organization": "Institute of Ethnology, Academia Sinica",
+      "職稱": "副研究員",
+      "Title": "Associate Research Fellow",
+      "連結": ""
+    },
+    {
+      "姓名": "李姿儀",
+      "Name": "Tzu-I Lee",
+      "服務單位": "國立臺灣科技大學專利研究所",
+      "Organization": "Graduate Institute of Patent, National Taiwan University of Science and Technology",
+      "職稱": "助理教授",
+      "Title": "Assistant Professor",
+      "連結": ""
+    },
+    {
+      "姓名": "謝長江",
+      "Name": "Chang-Chiang Hsieh",
+      "服務單位": "逢甲大學財經法律研究所",
+      "Organization": "Graduate Institute of Financial and Economic Law, Feng Chia University",
+      "職稱": "助理教授",
+      "Title": "Assistant Professor",
+      "連結": ""
+    },
+    {
+      "姓名": "林家暘",
+      "Name": "Chia-Yang Lin",
+      "服務單位": "輔仁大學法律學系",
+      "Organization": "Department of Law, Fu Jen Catholic University",
+      "職稱": "助理教授",
+      "Title": "Assistant Professor",
+      "連結": ""
+    },
+    {
+      "姓名": "陳薏婷",
+      "Name": "Yi-Ting Chen",
+      "服務單位": "中央研究院法律學研究所",
+      "Organization": "Institutum Iurisprudentiae, Academia Sinica",
+      "職稱": "博士後研究學者",
+      "Title": "Postdoctoral Scholar",
+      "連結": ""
+    }
+  ],
+  "場次": [
+    {
+      "編號": "0",
+      "名稱": "主題演講",
+      "Name": "Keynote Speech",
+      "主持人": ""
+    },
+    {
+      "編號": "1",
+      "名稱": "資料資本與新的消費模式",
+      "Name": "",
+      "主持人": ""
+    },
+    {
+      "編號": "2",
+      "名稱": "資料資本與分配",
+      "Name": "",
+      "主持人": ""
+    },
+    {
+      "編號": "3",
+      "名稱": "資料資本與新的生產模式",
+      "Name": "",
+      "主持人": "莊庭瑞"
+    },
+    {
+      "編號": "4",
+      "名稱": "新秀論壇",
+      "Name": "Junior Scholars Forum",
+      "主持人": ""
+    }
+  ]
+}
