@@ -3,7 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ pageTitle or L.nav[pageKey] }} · {{ site | loc("name") }}</title>
+{%- set metaLabel = pageTitle or (L.nav[pageKey] if pageKey != "home") %}
+{%- set metaTitle = (metaLabel + " · " + (site | loc("name"))) if metaLabel else (site | loc("name")) %}
+{%- set metaDesc %}{{ site | loc("subtitle") }}{% if site.date %} · {{ site.date }}{% endif %}{% if site | loc("venueName") %} · {{ site | loc("venueName") }}{% endif %}{% endset %}
+{%- set canonicalUrl = site.baseUrl + (page.url | url) %}
+  <title>{{ metaTitle }}</title>
+  <meta name="description" content="{{ metaDesc }}">
+  <link rel="canonical" href="{{ canonicalUrl }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site | loc("name") }}">
+  <meta property="og:title" content="{{ metaTitle }}">
+  <meta property="og:description" content="{{ metaDesc }}">
+  <meta property="og:url" content="{{ canonicalUrl }}">
+  <meta property="og:locale" content="{{ locale.ogLocale }}">
+  <meta property="og:locale:alternate" content="{{ altLocale.ogLocale }}">
+  <meta property="og:image" content="{{ site.baseUrl }}{{ site.socialImage | url }}">
+  <meta property="og:image:width" content="{{ site.socialImageWidth }}">
+  <meta property="og:image:height" content="{{ site.socialImageHeight }}">
+  <meta property="og:image:alt" content="{{ site | loc("name") }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="{{ site.twitterSite }}">
+  <link rel="icon" href="/img/favicon.png" type="image/png" sizes="128x128">
   <link rel="stylesheet" href="/css/pico.classless.min.css">
   <link rel="stylesheet" href="/css/site.css">
   <link rel="alternate" hreflang="{{ altLocale.lang }}" href="{{ altUrl }}">

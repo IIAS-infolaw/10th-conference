@@ -2,6 +2,11 @@ nameTW: "形構數位自我：資料、資本與正義"
 nameEN: "Contours of the Digital Self: Data, Capital, and the Struggle for Justice"
 subtitleTW: "第十屆「科技發展與法律規範」學術研討會"
 subtitleEN: "The 10th Conference on Law, Science and Technology"
+baseUrl: "https://iias-infolaw.github.io"
+socialImage: "/img/social.jpg"
+socialImageWidth: 1200
+socialImageHeight: 1200
+twitterSite: "@AcadSinica"
 date: "2026-11-06"
 venueNameTW: "中央研究院人文社會科學館"
 venueNameEN: "Humanities and Social Sciences Building, Academia Sinica"

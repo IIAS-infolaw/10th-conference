@@ -1,4 +1,4 @@
 [
-  { "code": "tw", "lang": "zh-Hant-TW", "prefix": "", "label": "華語" },
-  { "code": "en", "lang": "en-TW", "prefix": "en/", "label": "English" }
+  { "code": "tw", "lang": "zh-Hant-TW", "ogLocale": "zh_TW", "prefix": "", "label": "華語" },
+  { "code": "en", "lang": "en-TW", "ogLocale": "en_US", "prefix": "en/", "label": "English" }
 ]
