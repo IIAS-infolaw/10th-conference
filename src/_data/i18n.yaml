@@ -1,6 +1,7 @@
 tw:
   nav: { home: 首頁, agenda: 議程, speakers: 講者, events: 系列活動, venue: 會場交通, register: 報名 }
   agenda: { tba: （待定）, moderator: 主持人, discussant: 評論人, presenter: 報告人, paper: 文章連結 }
+  punct: { colon: ：, listSep: 、, parenOpen: （, parenClose: ） }
   speakers: { role_speaker: 報告人, role_discussant: 評論人, role_moderator: 主持人, session: 場次, appearances: 議程參與, website: 個人網站, back: 返回講者列表 }
   venue: { heading: 會場與交通 }
   events: { heading: 系列活動, venue: 地點, link: 活動資訊 }
@@ -9,6 +10,7 @@ tw:
 en:
   nav: { home: Home, agenda: Agenda, speakers: Speakers, events: Series Event, venue: Venue, register: Register }
   agenda: { tba: (TBA), moderator: Moderator, discussant: Discussant, presenter: Presenter, paper: Paper }
+  punct: { colon: ": ", listSep: ", ", parenOpen: " (", parenClose: ")" }
   speakers: { role_speaker: Presenter, role_discussant: Discussant, role_moderator: Moderator, session: Session, appearances: Appearances, website: Personal website, back: Back to speakers }
   venue: { heading: Venue & Directions }
   events: { heading: Series Event, venue: Venue, link: Event details }

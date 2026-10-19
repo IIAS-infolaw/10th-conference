@@ -8,7 +8,7 @@ pageKey: events
 <section>
   <h2>{{ e | loc("name") }}</h2>
   {% if e.date or e.startsAt %}<p>{% if e.date %}<time datetime="{{ e.date }}">{{ e.date }}</time>{% endif %}{% if e.startsAt and e.endsAt %}<time>{{ e.startsAt | timeRange(e.endsAt) }}</time>{% endif %}</p>{% endif %}
-  {% if e | loc("venue") %}<p>{{ L.events.venue }}：{{ e | loc("venue") }}</p>{% endif %}
+  {% if e | loc("venue") %}<p>{{ L.events.venue }}{{ L.punct.colon }}{{ e | loc("venue") }}</p>{% endif %}
   {% for para in (e | loc("description")) | paragraphs %}<p>{{ para }}</p>{% endfor %}
   {% if e.url %}<p><a href="{{ e.url }}">{{ L.events.link }}</a></p>{% endif %}
 </section>
