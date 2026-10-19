@@ -2,3 +2,12 @@ header nav ul { display: flex; flex-wrap: wrap; gap: 1rem; list-style: none; pad
 main section { margin-block-end: 2rem; }
 main time { font-variant-numeric: tabular-nums; margin-inline-end: 0.5rem; }
 iframe { width: 100%; aspect-ratio: 4 / 3; border: 0; }
+.speaker-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); gap: 1.5rem; list-style: none; padding: 0; }
+.speaker-grid li { text-align: center; list-style: none; }
+.speaker-grid a { display: block; text-decoration: none; }
+.speaker-grid img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 0.5rem; }
+.speaker-grid strong { display: block; margin-block-start: 0.5rem; }
+.speaker-grid small { display: block; color: var(--pico-muted-color); }
+.speaker-header { display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: start; margin-block-end: 1.5rem; }
+.speaker-header img { width: 12rem; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 0.5rem; }
+.speaker-header h1 { margin-block-end: 0.25rem; }

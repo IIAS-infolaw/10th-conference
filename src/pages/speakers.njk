@@ -3,15 +3,14 @@ slug: speakers/index.html
 pageKey: speakers
 ---
 <h1>{{ L.nav.speakers }}</h1>
-{% for person in program.people %}
-<section>
-  <h2>{{ person | loc("name") }}</h2>
-  <p>{{ person | loc("org") }}{% if (person | loc("org")) and (person | loc("title")) %} · {% endif %}{{ person | loc("title") }}</p>
-  {% if person.url %}<p><a href="{{ person.url }}">{{ person.url }}</a></p>{% endif %}
-  <ul>
-    {% for a in person.appearances %}
-    <li>{{ L.speakers["role_" + a.role] }} · {{ L.speakers.session }} {{ a.blockNumber }}{% set t = a | loc("title") %}{% if t or a.role != "moderator" %} · {{ t or L.agenda.tba }}{% endif %}</li>
-    {% endfor %}
-  </ul>
-</section>
-{% endfor %}
+<ul class="speaker-grid">
+  {% for person in program.people %}
+  <li>
+    {% if person.slug %}<a href="/{{ locale.prefix }}speakers/{{ person.slug }}/">{% endif %}
+    <img src="{{ person.photo }}" alt="" width="200" height="200" loading="lazy">
+    <strong>{{ person | loc("name") }}</strong>
+    {% if person.slug %}</a>{% endif %}
+    <small>{{ person | loc("org") }}{% if (person | loc("org")) and (person | loc("title")) %} · {% endif %}{{ person | loc("title") }}</small>
+  </li>
+  {% endfor %}
+</ul>

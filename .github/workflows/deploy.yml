@@ -6,7 +6,7 @@ on:
     - cron: '0 16 * * 1-5'
       timezone: 'Asia/Taipei'
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
@@ -20,6 +20,18 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version-file: .nvmrc, cache: npm }
       - run: npm ci
+      - name: Refresh sheet snapshot
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: |
+          npm run sync
+          if ! git diff --quiet -- src/_data/snapshot.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add src/_data/snapshot.json
+            git commit -m "chore: refresh sheet snapshot"
+            git push origin HEAD:develop
+          fi
       - run: npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

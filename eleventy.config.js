@@ -1,5 +1,6 @@
 import yaml from "js-yaml";
 import { HtmlBasePlugin } from "@11ty/eleventy";
+import { pickLoc } from "./src/_lib/loc.js";
 
 export default function (eleventyConfig) {
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
@@ -11,11 +12,11 @@ export default function (eleventyConfig) {
   });
   eleventyConfig.addFilter("timeRange", (a, b) => `${a}–${b}`); // U+2013
   eleventyConfig.addFilter("loc", function (obj, field) {
-    const code = this.ctx.locale.code; // "tw" | "en"
-    const tw = (obj && obj[field + "TW"]) || "";
-    const en = (obj && obj[field + "EN"]) || "";
-    return code === "tw" ? tw || en : en || tw;
+    return pickLoc(obj, field, this.ctx.locale.code);
   });
+  eleventyConfig.addFilter("paragraphs", (text) =>
+    String(text || "").split(/\n+/).map((s) => s.trim()).filter(Boolean)
+  );
   return {
     dir: { input: "src", output: "_site", includes: "_includes", data: "_data" },
     htmlTemplateEngine: "njk",

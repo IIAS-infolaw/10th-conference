@@ -1,4 +1,19 @@
+import fs from "node:fs";
 import { fetchSheets } from "../_lib/sheet.js";
+
+const SPEAKER_IMG_DIR = new URL("../img/speakers/", import.meta.url);
+const DEFAULT_PHOTO = "/img/speakers/default.jpg";
+const locales = JSON.parse(fs.readFileSync(new URL("./locales.json", import.meta.url), "utf8"));
+
+function slugify(name) {
+  return String(name || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+function photoFor(slug) {
+  return slug && fs.existsSync(new URL(`${slug}.jpg`, SPEAKER_IMG_DIR))
+    ? `/img/speakers/${slug}.jpg`
+    : DEFAULT_PHOTO;
+}
 
 export default async function () {
   const sheets = await fetchSheets();
@@ -10,18 +25,35 @@ export default async function () {
     moderatorRaw: r["主持人"],
   }));
 
-  const people = sheets["講者"].map((r) => ({
-    key: r["姓名"],
-    nameTW: r["姓名"],
-    nameEN: r["Name"],
-    orgTW: r["服務單位"],
-    orgEN: r["Organization"],
-    titleTW: r["職稱"],
-    titleEN: r["Title"],
-    url: r["連結"],
-    appearances: [],
-  }));
+  const people = sheets["講者"].map((r) => {
+    const slug = slugify(r["Name"]);
+    return {
+      key: r["姓名"],
+      nameTW: r["姓名"],
+      nameEN: r["Name"],
+      orgTW: r["服務單位"],
+      orgEN: r["Organization"],
+      titleTW: r["職稱"],
+      titleEN: r["Title"],
+      bioTW: r["簡介"],
+      bioEN: r["Biography"],
+      url: r["連結"],
+      slug,
+      photo: photoFor(slug),
+      appearances: [],
+    };
+  });
   const index = new Map(people.map((p) => [p.key, p]));
+
+  const noSlug = people.filter((p) => !p.slug).map((p) => p.nameTW);
+  if (noSlug.length) console.warn("[program] no English name, no speaker page:", noSlug.join(", "));
+
+  const speakerPages = [];
+  for (const locale of locales) {
+    for (const person of people) {
+      if (person.slug) speakerPages.push({ locale, person });
+    }
+  }
 
   function resolvePerson(raw) {
     const key = (raw || "").trim();
@@ -29,7 +61,8 @@ export default async function () {
     if (index.has(key)) return index.get(key);
     console.warn("[program] unknown person, using bare name:", key);
     return {
-      key, nameTW: key, nameEN: key, orgTW: "", orgEN: "", titleTW: "", titleEN: "", url: "", appearances: [],
+      key, nameTW: key, nameEN: key, orgTW: "", orgEN: "", titleTW: "", titleEN: "",
+      bioTW: "", bioEN: "", url: "", slug: "", photo: DEFAULT_PHOTO, appearances: [],
     };
   }
 
@@ -89,5 +122,24 @@ export default async function () {
     }
   }
 
-  return { sessions, people, blocks };
+  const sideEventRows = sheets["系列活動"] ?? [];
+  const sideEvents = sideEventRows
+    .filter((r) => "名稱" in r || "Name" in r)
+    .map((r) => ({
+      nameTW: r["名稱"],
+      nameEN: r["Name"],
+      date: r["日期"],
+      startsAt: r["開始時間"],
+      endsAt: r["結束時間"],
+      venueTW: r["地點"],
+      venueEN: r["Venue"],
+      descriptionTW: r["說明"],
+      descriptionEN: r["Description"],
+      url: r["連結"],
+    }));
+  if (sideEventRows.length && !sideEvents.length) {
+    console.warn("[program] 系列活動 sheet has unexpected columns, ignoring", sideEventRows.length, "rows");
+  }
+
+  return { sessions, people, blocks, sideEvents, speakerPages };
 }

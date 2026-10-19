@@ -1,0 +1,19 @@
+<div class="speaker-header">
+  <img src="{{ person.photo }}" alt="{{ person | loc('name') }}" width="240" height="240">
+  <div>
+    <h1>{{ person | loc("name") }}</h1>
+    <p>{{ person | loc("org") }}{% if (person | loc("org")) and (person | loc("title")) %} · {% endif %}{{ person | loc("title") }}</p>
+    {% if person.url %}<p><a href="{{ person.url }}" rel="noopener">{{ L.speakers.website }}</a></p>{% endif %}
+  </div>
+</div>
+{% set bio = person | loc("bio") %}
+{% for para in bio | paragraphs %}<p>{{ para }}</p>{% endfor %}
+{% if person.appearances.length %}
+<h2>{{ L.speakers.appearances }}</h2>
+<ul>
+  {% for a in person.appearances %}
+  <li>{{ L.speakers["role_" + a.role] }} · {{ L.speakers.session }} {{ a.blockNumber }}{% set t = a | loc("title") %}{% if t or a.role != "moderator" %} · {{ t or L.agenda.tba }}{% endif %}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+<p><a href="/{{ locale.prefix }}speakers/">{{ L.speakers.back }}</a></p>

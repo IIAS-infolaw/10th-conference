@@ -3,7 +3,7 @@ import EleventyFetch from "@11ty/eleventy-fetch";
 import { parse } from "csv-parse/sync";
 
 export const SHEET_ID = "1ET9GVj0-Yt4ihhmOnU-9r2QhjnyG13dY-xLWBUkrmQc";
-export const SHEET_NAMES = ["議程表", "講者", "場次"];
+export const SHEET_NAMES = ["議程表", "講者", "場次", "系列活動"];
 export const SNAPSHOT_PATH = new URL("../_data/snapshot.json", import.meta.url);
 
 export function sheetUrl(name) {

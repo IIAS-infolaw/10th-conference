@@ -29,7 +29,7 @@
       "結束時間": "10:20",
       "類型": "議程",
       "場次": "0",
-      "題目": "A Sociological Critique of Generative AI",
+      "題目": "生成式AI的社會學批判",
       "Topic": "A Sociological Critique of Generative AI",
       "報告人1": "Deborah Lupton",
       "報告人2": "",
@@ -54,7 +54,7 @@
       "類型": "議程",
       "場次": "1",
       "題目": "",
-      "Topic": "",
+      "Topic": "Foundation Models, Sovereign Power, Law, and the Struggle for\r\nDominance in Universal Infrastructure\r",
       "報告人1": "邱文聰",
       "報告人2": "",
       "評論人": "陳弘儒",
@@ -89,8 +89,8 @@
       "結束時間": "14:00",
       "類型": "議程",
       "場次": "2",
-      "題目": "",
-      "Topic": "",
+      "題目": "資料正義",
+      "Topic": "Data Justice",
       "報告人1": "吳全峰",
       "報告人2": "",
       "評論人": "張兆恬",
@@ -101,8 +101,8 @@
       "結束時間": "14:25",
       "類型": "議程",
       "場次": "2",
-      "題目": "",
-      "Topic": "",
+      "題目": "帶立場偏向的大型語言模型疫苗資訊如何在低信任社群加深健康不平等",
+      "Topic": "How Biased AI Vaccine Information Deepens Health Inequity Across Communities of Unequal Trust",
       "報告人1": "李宣緯",
       "報告人2": "",
       "評論人": "葉明叡",
@@ -125,8 +125,8 @@
       "結束時間": "16:00",
       "類型": "議程",
       "場次": "3",
-      "題目": "",
-      "Topic": "",
+      "題目": "產業主導的爬蟲規範與開放網路的危機",
+      "Topic": "Industry-led Crawler Regulation and the Threat to the Open Web",
       "報告人1": "陳舜伶",
       "報告人2": "",
       "評論人": "洪淳琦",
@@ -137,8 +137,8 @@
       "結束時間": "16:00",
       "類型": "議程",
       "場次": "3",
-      "題目": "",
-      "Topic": "",
+      "題目": "AI聲音複製：聲音資料之有界性流動及關係性治理之初探",
+      "Topic": "Voice Cloning and the Bounded Fluidity of Vocal Data: Toward a Relational Governance",
       "報告人1": "彭松嶽",
       "報告人2": "李姿儀",
       "評論人": "李梅君",
@@ -162,7 +162,7 @@
       "類型": "議程",
       "場次": "4",
       "題目": "數位廣告驅動商業模式之資料治理：從歐盟臉書「付費或同意」案出發",
-      "Topic": "",
+      "Topic": "Data Governance of Digital Advertising-Driven Business Models: Starting from the EU Meta ‘Pay or Consent’ Case",
       "報告人1": "謝長江",
       "報告人2": "",
       "評論人": "林家暘",
@@ -173,7 +173,7 @@
       "結束時間": "17:35",
       "類型": "議程",
       "場次": "4",
-      "題目": "Ambient intelligence and regulation: some legal metamorphoses through the lens of two dichotomies",
+      "題目": "",
       "Topic": "Ambient intelligence and regulation: some legal metamorphoses through the lens of two dichotomies",
       "報告人1": "陳薏婷",
       "報告人2": "",
@@ -185,10 +185,12 @@
     {
       "姓名": "Deborah Lupton",
       "Name": "Deborah Lupton",
-      "服務單位": "澳大利亞雪梨新南威爾士大學藝術與社會科學院",
+      "服務單位": "澳大利亞雪梨新南威爾斯大學藝術、設計與建築學院",
       "Organization": "University of New South Wales Sydney",
       "職稱": "SHARP教授",
       "Title": "SHARP Professor",
+      "簡介": "",
+      "Biography": "Deborah Lupton is SHARP Professor in the Faculty of Arts, Design & Architecture, University of New South Wales (UNSW) Sydney, Australia. Her research is interdisciplinary, spanning sociology, media and cultural studies, and often involves arts-based and other creative methods for research and community engagement. She is located in the Centre for Social Research in Health and the Social Policy Research Centre, leading both the Vitalities Lab and the UNSW Node of the Australian Research Council Centre of Excellence for Automated Decision-Making and Society. Professor Lupton is an elected Fellow of the Academy of the Social Sciences in Australia, the Australian Academy of Health and Medical Sciences and the Royal Society of NSW, and has been awarded two honorary doctorates. She is the author/editor of more than 30 academic books.",
       "連結": ""
     },
     {
@@ -198,7 +200,9 @@
       "Organization": "Institutum Iurisprudentiae, Academia Sinica",
       "職稱": "研究員",
       "Title": "Research Professor",
-      "連結": ""
+      "簡介": "邱文聰現為中央研究院法律學研究所研究員，並為該所資訊法中心首位主任。他的研究領域包括資訊法、憲法隱私權、食品管制、科學技術與社會研究（STS）與法律、生醫及公共衛生倫理，以及國家安全法。\n\n他於 2004 年取得維吉尼亞大學法學博士（S.J.D.）學位，另分別取得賓夕法尼亞大學及國立臺灣大學的法學碩士（LL.M.）學位，並畢業於國立臺灣大學法律學系，取得法學士（LL.B.）學位。\n\n目前擔任中央研究院智財技轉處處長，並為臺灣 AI 卓越中心（AICoE）AI治理組召集人。",
+      "Biography": "Wen-Tsong Chiou is research fellow at the Institutum Iurisprudentiae\nof the Academia Sinica in Taiwan, and the founding director of the institute’s Information Law Center. His research focuses on information law, constitutional privacy, food regulation, STS & law, biomedical and public health ethics, and national security law. He holds a S.J.D. from University of Virginia (2004), two L.L.M.s\nrespectively from the University of Pennsylvania and National Taiwan University, and an LL.B from National Taiwan University. He currently serves as the director of the Office of Intellectual Property and Technology Transfer, Academia Sinica and co-chairs the AI governance\ndivision of Taiwan AICoE.\n",
+      "連結": "https://www.iias.sinica.edu.tw/en/member_post/8?class=12"
     },
     {
       "姓名": "陳舜伶",
@@ -207,6 +211,8 @@
       "Organization": "Institutum Iurisprudentiae, Academia Sinica",
       "職稱": "副研究員",
       "Title": "Associate Research Professor",
+      "簡介": "中研院法律所副研究員、資訊法中心副主任，哈佛大學法學博士。\n主要研究興趣為資訊科技法律與社會，包括著作權法、隱私權、網路協作、公民科學、網路社群自治、平台治理、網路治理與資料治理。",
+      "Biography": "Shun-Ling Chen is an associate research professor at Institutum Iurisprudentiae Academia Sinica (IIAS). She also co-directs the Information Law Center at IIAS.\nShun-Ling holds an S.J.D. from Harvard Law School. She has worked closely with online collaboration and civic tech communities. Trained in both Law and Science and technology studies, her research interest include copyright, privacy, peer production, citizen science, community governance, platform governance, internet governance and data governance.",
       "連結": ""
     },
     {
@@ -216,6 +222,8 @@
       "Organization": "Institutum Iurisprudentiae, Academia Sinica",
       "職稱": "副研究員",
       "Title": "Associate Research Professor",
+      "簡介": "現職\r\n中央研究院法律學研究所副研究員\r\n中央研究院法律學研究所資訊法中心主任\r\n\r\n學經歷\r\n加州大學柏克萊分校法學博士 (J.S.D., 2007)\r\n哈佛大學訪問研究 (Visiting Researcher, 2003)\r\n哈佛大學法學碩士 (LL.M., 2002)\r\n國立陽明大學衛生福利研究所碩士 (M.S., 1999)\r\n國立台灣大學法律學系法學士暨公共衛生學系學士 (LL.B. & B.S., 1996)\r\n\r\n研究領域\r\n醫療法、國際人權法、公共衛生倫理\r\n",
+      "Biography": "Chuan-Feng Wu serves as an associate research professor at the Institutum Iurisprudentiae, Academia Sinica, and a joint appointment assistant professor at the Institute of Health and Welfare Policy, National Yang-Ming University, and College of Public Health, National Taiwan University. He received his J.S.D. from the UC Berkeley and LL.M. from Harvard Law School. In addition to degrees in law, he also holds master’s degree in health and welfare policy and bachelor’s degree in public health. His specialty fields of study include healthcare laws and ethics, international human rights and the right to health, and health-care distributive justice.",
       "連結": ""
     },
     {
@@ -225,6 +233,8 @@
       "Organization": "Institute of European and American Studies, Academia Sinica",
       "職稱": "助研究員",
       "Title": "Assistant Research Professor",
+      "簡介": "法理學研究者，學術興趣是法律推理理論、美國憲法解釋理論、人工智慧與法律，以及公民不服從的法政哲學課題。 ",
+      "Biography": "",
       "連結": ""
     },
     {
@@ -234,6 +244,8 @@
       "Organization": "Institute of Sociology, Academia Sinica",
       "職稱": "AI社會學專案研究經理",
       "Title": "AI Sociology Project Research Manager",
+      "簡介": "黃韋菁是台灣中央研究院社會學研究所AI社會學專案研究經理。她致力於探索AI不僅是一項技術成就，更是一面反映我們社會渴望與焦慮的鏡子。她與吳齊殷教授合作進行AI社會學研究，探討AI如何參與我們集體生活中，塑造信任、偏見/偏誤以及脆弱的社群連結。\r\n \r\n同時，她對本體論的興趣也反映了一個更深層的問題：我們如何命名和建構世界，以便機器能夠理解它？在這個過程中，我們又如何重塑我們對自身的認知？她曾在國際會議上發表演講，並發表了多篇論文。她的ORCID學術個人資料(https://orcid.org/0000-0002-9781-3352)中詳細介紹了她的研究歷程。\r\n",
+      "Biography": "Andrea Wei-Ching Huang is an AI Sociology Project Research Manager at Institute of Sociology, Academia Sinica, Taiwan. She devoted to exploring the ways in which AI is not merely a technical achievement but a mirror of our social longings and anxieties. Her works in AI Sociology with Professor Wu Chyi-In ask how AI become participants in our collective dramas, shaping trust, bias, and the fragile bonds of community.\r\n \r\nAlongside this, her interest in Ontology reflects a deeper question: how do we name and structure the world so that machines may understand it, and in doing so, how do we reshape our own understanding of ourselves? She has spoken at international conferences and published papers. The whole story’s laid out in her ORCID profile (https://orcid.org/0000-0002-9781-3352).\r\n",
       "連結": ""
     },
     {
@@ -243,6 +255,8 @@
       "Organization": "Institute of Sociology, Academia Sinica",
       "職稱": "研究員",
       "Title": "Research Fellow",
+      "簡介": "吳齊殷，現任中央研究院社會學研究所研究員，曾任該所副所長，並主持多項國內大型社會調查計畫（「台灣社會變遷基本調查」、「台灣農村社會與人口調查」、「台灣數位世代青少年成長歷程研究」）。於1993年獲得美國愛荷華州立大學社會學博士學位，是大型社會調查領域的專家。研究主要聚焦在生命歷程視野下青少年的身心發展結果，特別關注社會網絡如何影響青少年的福祉。其研究亦關注家庭、階級、學校及社區等情境因素，探討這些結構性因素如何與青少年的社會活動相互交織，進而對青少年福祉產生影響。其研究成果發表於多本國際著名學術期刊，Criminology、Social Psychology Quarterly、Journal of Research on Adolescence、Journal of Child and Family Studies、Evolution and Human Behavior等；其關於社會網絡的最新研究，則發表於Social Networks。",
+      "Biography": "Chyi-In Wu is a Research Fellow of the Institute of Sociology at Academia Sinica in Taiwan and is the Principal Investigator of several major social survey projects (i.e., Taiwan Social Change Survey ; Taiwan Rural Social and Population Survey; Taiwan I-Generation Panel Study). He received his PhD in Sociology from Iowa State University in 1993. He is an expert in large scale social survey. His research majorly focuses on the outcomes of adolescent physical and psychological development in a life course perspective. Particularly, he is interested in how social networks influence adolescent well-being. In addition, his research also pays attention to the contextual factors like family, class, school, community and so on to investigate how these structural factors interweaving with adolescent’s social activities and eventually generating impact upon adolescent well-being. His work has appeared in numerous journals including Criminology, Social Psychology Quarterly, Journal of Research on Adolescence, Journal of Child and Family Studies, Evolution and Human Behavior, International Sociology, Current Sociology, and his most recent research work on social network appears in the Social Networks.",
       "連結": ""
     },
     {
@@ -252,6 +266,8 @@
       "Organization": "Graduate Institute of National Development, National Taiwan University",
       "職稱": "副教授",
       "Title": "Associate Professor",
+      "簡介": "國立臺灣大學國家發展研究所副教授，專長為生命倫理與法律、公法。 ",
+      "Biography": "Chao-Tien Chang is an Associate Professor at the Graduate Institute of National Development, National Taiwan University. Her research focuses on bioethics and law, as well as public law. ",
       "連結": ""
     },
     {
@@ -261,6 +277,8 @@
       "Organization": "College of Health, Lehigh University",
       "職稱": "助理教授",
       "Title": "Assistant Professor",
+      "簡介": "李宣緯(Hsuan-Wei \"Wayne\" Lee),美國理海大學(Lehigh University)健康學院生物統\r\n計與健康資料科學系助理教授,並合聘於數學系。2019 年至 2024 年任中央研究院社會學\r\n研究所助研究員,期間兼任國立臺灣大學政治學系與社會學系助理教授,並合聘於臺大物\r\n理學系。美國北卡羅來納大學教堂山分校數學博士。\r\n他的研究關注「關於人的資料」如何被生產,以及這些資料流通之後帶來什麼後果。他結\r\n合網絡科學、統計模型與機器學習,分析平台與社會結構如何形塑制度所依賴的證據。相\r\n關研究包括線上網絡中的政治機器人與意見極化、臉書大數據與社會關係的形成,以及社\r\n會資本與信任的分布。他也曾擔任科技部計畫共同主持人,研究轉介網絡如何在勞動市場\r\n中區隔少數群體工作者,並參與建置網路輿情動態資料庫。\r\n另一條研究主軸是權力不對等下的測量問題:如何在保護匿名的前提下估計隱藏與弱勢族\r\n群的規模、如何測量人口販運被害者的能動性,以及臺灣的轉型正義與健康、幸福感和社\r\n會團結之間的關係。他目前的研究探討人工智慧生成的「合成受訪者」能否取代真實民眾\r\n參與社會調查,以及電子病歷所記錄的臨床決策中如何出現差別對待。\r\n已發表四十餘篇期刊論文,刊登於 Humanities and Social Sciences Communications、\r\nComputers in Human Behavior、Social Science Computer Review、Social Networks、Social\r\nScience & Medicine 等期刊。現為理海大學駐聯合國代表。",
+      "Biography": "Hsuan-Wei \"Wayne\" Lee is an Assistant Professor of Biostatistics and Health Data Science in\r\nthe College of Health at Lehigh University, with a faculty appointment in the Department of\r\nMathematics. From 2019 to 2024 he was an Assistant Research Fellow at the Institute of\r\nSociology, Academia Sinica. During this period he also held adjunct appointments in political\r\nscience and sociology and a joint appointment in physics at National Taiwan University. He\r\nreceived his Ph.D. in Mathematics from the University of North Carolina at Chapel Hill.\r\nHis research asks how data about people is produced, and what it does once it circulates. Using\r\nnetwork science, statistical modeling, and machine learning, he studies how platforms and social\r\nstructure shape the evidence that institutions rely on. He has written on political bots and opinion\r\npolarization in online networks, on large-scale Facebook data and the formation of social ties,\r\nand on the distribution of social capital and trust. As a co-investigator on projects funded by\r\nTaiwan's Ministry of Science and Technology, he studied how referral networks segregate\r\nminority workers in labor markets and helped build dynamic databases of online public opinion.\r\nA second line of his work concerns measurement under unequal power: estimating the size of\r\nhidden and vulnerable populations while preserving anonymity, measuring agency among\r\ntrafficking victims, and examining how transitional justice in Taiwan relates to health, happiness,\r\nand social solidarity. His current projects ask whether AI-generated synthetic respondents can\r\nstand in for real people in social surveys, and how disparities enter clinical decisions recorded in\r\nelectronic health records.\r\nHe has published more than 40 peer-reviewed articles in journals including Humanities and\r\nSocial Sciences Communications, Computers in Human Behavior, Social Science Computer\r\nReview, Social Networks, and Social Science & Medicine. He also serves as Lehigh University's\r\nrepresentative to the United Nations through its ECOSOC consultative status.",
       "連結": ""
     },
     {
@@ -270,7 +288,9 @@
       "Organization": "Department of Public Health, College of Public Health, National Taiwan University",
       "職稱": "副教授",
       "Title": "Associate Professor",
-      "連結": ""
+      "簡介": "",
+      "Biography": "",
+      "連結": "https://drive.google.com/file/d/1kgfutiKHNk3qVNHADrd4GGGRCsz6iqqd/view?usp=sharing"
     },
     {
       "姓名": "洪淳琦",
@@ -279,6 +299,8 @@
       "Organization": "Institute of Law for Science and Technology, National Tsing Hua University",
       "職稱": "副教授",
       "Title": "Associate Professor",
+      "簡介": "洪淳琦副教授畢業於台大法律系、台大法律研究所公法組，其後獲教育部公費，於美國哈佛法學院取得法學碩士；再赴英國研究智慧財產權與科技法。在英國期間，她先在倫敦政經學院「法律、人類學與社會」碩士班中，研究新科技與社會、法律的互動；再進入倫敦大學瑪麗皇后學院商法研究中心的博士班，研究國際智慧財產權法及原住民族傳統智慧創作。她的博士論文獲得罕見的最高級成績—口試委員一致同意「無條件、無須修改」直接通過。\n\n在加入清大科法所之前，她曾在國際法律事務所和上市公司擔任律師及主管，也曾獨立執業，擔任科技公司、文化團體、及知名藝術家之法律顧問。她目前在清大科法所教授憲法、國際智慧財產權法、營業秘密法、專利法。在進行中的研究主題包含：國家安全視野下的智慧財產權議題、原住民族資料主權、資料治理與性別議題。她曾獲國立清華大學科技管理學院新進人員研究獎、科技管理學院傑出教學獎、國立清華大學傑出教學獎。\n",
+      "Biography": "Chun-Chi Hung is an Associate Professor at the Institute of Law for Science and Technology at National Tsing Hua University, Taiwan. She earned her bachelor’s degree in law and a master’s degree specializing in public law from National Taiwan University. With a scholarship from Taiwan’s Ministry of Education, she subsequently obtained an LL.M. from Harvard Law School before moving to the United Kingdom to pursue further studies in intellectual property and technology law.\n\nIn the United Kingdom, she first completed an MSc in Law, Anthropology and Society at the London School of Economics and Political Science, examining the interactions between emerging technologies, society, and law. She then pursued a PhD at the Centre for Commercial Law Studies at Queen Mary University of London, focusing on international intellectual property law and Indigenous traditional cultural expressions. Her dissertation achieved the exceptional outcome of a unanimous, unconditional pass, with no revisions required.\n\nBefore joining National Tsing Hua University, she worked as an attorney-at-law and held managerial positions at an international law firm and a publicly listed company. She also practised independently, serving as legal counsel to technology companies, cultural organizations, and prominent artists. She currently teaches constitutional law, international intellectual property law, trade secrets law, and patent law. Her ongoing research explores intellectual property issues in the context of national security, Indigenous data sovereignty, and the intersections of data governance and gender.\n\nShe has received the New Faculty Research Award and the Outstanding Teaching Award from National Tsing Hua University’s College of Technology Management, as well as the university’s Outstanding Teaching Award.\n",
       "連結": ""
     },
     {
@@ -288,6 +310,8 @@
       "Organization": "Institute of Information Science",
       "職稱": "副研究員",
       "Title": "Associate Research Fellow",
+      "簡介": "",
+      "Biography": "Tyng-Ruey Chuang is an Associate Research Fellow at Academia Sinica, Taiwan, and leads the depositar lab at the Institute of Information Science. His team runs the depositar (data.depositar.io), a public repository for the deposit, discovery, and reuse of research datasets aligned with the FAIR Data Principles. He advises the Long-Term Socio-Ecological Research (LTSER) program at the National Science and Technology Council (NSTC) of Taiwan on data management issues. He was an elected member of the Executive Committee of CODATA at the International Science Council (2018–2025). He led Creative Commons Taiwan, hosted by Academia Sinica since its inception, for 15 years before its transition to a community project in 2018. He was the recipient of a Fulbright Senior Research Grant and a Fellow (2011–2012) at the Berkman Center for Internet and Society, Harvard University . ",
       "連結": ""
     },
     {
@@ -297,6 +321,8 @@
       "Organization": "Institute of Science, Technology and Society, National Yang Ming Chiao Tung University",
       "職稱": "副教授",
       "Title": "Associate Professor",
+      "簡介": "國立陽明交通大學科技與社會所副教授，研究以數位創新為主題，關心其造成之都市與氣候治理、公眾參與和日常生活的轉變，援引科技與社會研究、批判數據與演算法研究、地理學、社會學及流動性研究進行跨領域探索。 ",
+      "Biography": "Sung-Yueh Perng is an Associate Professor at the Institute of Science, Technology and Society, National Yang Ming Chiao Tung University, whose research focuses on digital innovation and its transformative impacts on urban and climate governance, public participation, and everyday life. Drawing on science and technology studies (STS), critical data and algorithm studies, geography, sociology, and mobility studies, his work takes an interdisciplinary approach to understanding these transformations.",
       "連結": ""
     },
     {
@@ -306,7 +332,9 @@
       "Organization": "Institute of Ethnology, Academia Sinica",
       "職稱": "副研究員",
       "Title": "Associate Research Fellow",
-      "連結": ""
+      "簡介": "李梅君現職為中央研究院民族學研究所副研究員，研究專長包含數位人類學、批判資料學、科技與社會研究、資料政治、黑客行動主義、後人類戰爭、以及假訊息。\n",
+      "Biography": "Mei-Chun Lee is an Associate Research Fellow at the Institute of Ethnology. ",
+      "連結": "https://drive.google.com/file/d/15u9yFGfiJce02DkKyggyPoQYk5EqrGQZ/view?usp=sharing"
     },
     {
       "姓名": "李姿儀",
@@ -315,6 +343,8 @@
       "Organization": "Graduate Institute of Patent, National Taiwan University of Science and Technology",
       "職稱": "助理教授",
       "Title": "Assistant Professor",
+      "簡介": "國立臺灣科技大學專利研究所助理教授，具跨領域學術背景，擁有美國加州大學柏克萊分校法學碩士（LL.M.）、伊利諾大學芝加哥分校法學博士（J.D.）、國立臺灣大學地理學博士，以及英國華威大學文學碩士學位。研究領域涵蓋智慧財產權法、人工智慧法律與政策、及法律地理學。近期研究聚焦於聲音複製、臺灣音樂產業的法律地理、半導體產業營業秘密治理，以及人工智慧著作權議題。",
+      "Biography": "Tzu-I Lee is an Assistant Professor at the Graduate Institute of Patent, National Taiwan University of Science and Technology. She has an interdisciplinary academic background, holding an LL.M. from Berkeley Law, a J.D. from UIC School of Law, a Ph.D. in Geography from National Taiwan University, and an M.A. from the University of Warwick. Her research interests include intellectual property law, AI law and policy, and legal geography. Her recent research focuses on voice cloning, the legal geography of Taiwan's music industry, trade secret governance in the semiconductor industry, and AI copyright issues.",
       "連結": ""
     },
     {
@@ -324,6 +354,8 @@
       "Organization": "Graduate Institute of Financial and Economic Law, Feng Chia University",
       "職稱": "助理教授",
       "Title": "Assistant Professor",
+      "簡介": "謝長江為國立臺灣大學法律學系博士，現任逢甲大學財經法律研究所助理教授。謝先生擁有經濟學、公法學及歐盟經濟法之碩士學位，並曾於中央研究院作為人文社會科學博士候選人培育計畫人員，以及於臺灣大學擔任博士後研究人員。其博士論文探討當代競爭政策如何因應資料經濟與永續發展之挑戰，且持續研究競爭法、法律經濟學、產業管制以及人工智慧與資料治理相關議題。",
+      "Biography": "Chang-Chiang Hsieh holds a Ph.D. in Law from National Taiwan University and currently serves as an Assistant Professor at the Graduate Institute of Financial and Economic Law at Feng Chia University. He also holds master’s degrees in Economics, Public Law, and European Economic Law. His prior academic appointments include serving as a Doctoral Fellow at Institutum Iurisprudentiae Academia Sinica and as a Postdoctoral Fellow at National Taiwan University. His doctoral dissertation examined how contemporary competition policy addresses the dual challenges of the data economy and sustainable development. His ongoing research focuses on competition law, law and economics, industrial regulation, and the regulatory intersections of data governance and artificial intelligence.\n",
       "連結": ""
     },
     {
@@ -333,6 +365,8 @@
       "Organization": "Department of Law, Fu Jen Catholic University",
       "職稱": "助理教授",
       "Title": "Assistant Professor",
+      "簡介": "家暘現任職於天主教輔仁大學法律學系，專業領域為憲法、行政法與通訊傳播法，目前開設行政法、行政救濟法與公平交易法專題研究等課程。留學撰寫關於電信法市場管制之博士論文時，受指導教授指點，應對於歐盟與德國競爭法多加研修，從此與競爭法結下不解之緣。回國後陸續寫出關於網路上不公平競爭行為、德國競爭法數位化改革以及評析臺灣通訊傳播事業結合案等論文。近年亦受國家通訊傳播委員會委託，執行有關OTT-TV以及網路平臺治理研究計畫。",
+      "Biography": "Chia-Yang currently serves at the School of Law, FJCU. His fields of specialization include Constitutional Law, Administrative Law, and Communication Law. He currently teaches courses such as Administrative Law, The Administrative Relief Act, and Seminar on Fair Trade Law. While studying abroad to write his doctoral dissertation on telecom market regulation, his supervisor advised him to undertake in-depth research on EU and German competition law, which sparked an enduring connection with the subject. After returning home, he authored a series of papers covering unfair competition on the internet, the digital reform of German competition law, and reviews of communication and broadcasting merger cases in Taiwan. In recent years, he has also been commissioned by the National Communications Commission to conduct research projects on OTT-TV and online platform governance.",
       "連結": ""
     },
     {
@@ -342,6 +376,52 @@
       "Organization": "Institutum Iurisprudentiae, Academia Sinica",
       "職稱": "博士後研究學者",
       "Title": "Postdoctoral Scholar",
+      "簡介": "目前擔任中央研究院法律學研究所資訊法中心博士後研究學者，主要負責為AI政策建議提供比較法學的見解與分析。她的學術軌跡扎根於法律衝突法與法律和科技之間結合的交會點，其博士論文題為International Law and Artificial General Intelligence，在此之前，她完成了以 AI 法律規範與跨國企業社會責任為主題的碩士論文。\r\n延續這些研究主題，她發表的學術內容探討了多項前沿法律議題，例如AGI與Strong AI對國際法作為法律體系之意涵、AI 的法律定位與慎防義務、Ambient Intelligence帶來的法律蛻變，以及從去中心化自主代理匿名性到跨物種溝通與跨物種法等主題。\r\n她近期曾擔任個人資料保護委員會所委託研究案「法國 CNIL 人工智慧發展實務指南」的專家顧問。在此之前，她曾於法國巴黎的印度駐法國大使館擔任外交人員考試的英法雙語記錄員（scribe），並擔任該考試準備與複習的指導。她先前曾在師長指導下完成國家科學委員會之勞動契約法專題研究計畫，並發表了關於競業禁止規範的研究成果。\r",
+      "Biography": "Dr. Chen Yi-Ting currently serves as a Postdoctoral Scholar at the Information Law Center of the Institutum Iurisprudentiae, Academia Sinica, primarily tasked with delivering comparative law insights and analysis for AI policy recommendations. Her academic trajectory is rooted in the conflict of laws and the intersection of law and converging technologies, marked by a doctoral dissertation titled International Law and Artificial General Intelligence, which followed a master's thesis focusing on AI regulation and multinational corporate social responsibility.\r\nExpanding upon these themes, she has contributed scholarly work examining legal frontiers, such as the implications of AGI and strong AI for international law as a legal system, the legal status and duty of vigilance regarding artificial intelligence, legal metamorphoses concerning ambient intelligence, and topics ranging from decentralized agentic anonymity to inter-species communication and inter-species law.\r\nShe recently served as an expert consultant for a commissioned research project on France's CNIL AI Development Practical Guidelines conducted for the Personal Data Protection Commission. Prior to this, she once served as a bilingual (English-French) scribe for the diplomatic service exam at the Embassy of India in Paris, France, and tutored for its preparation and revision. Under faculty advisement, she previously conducted a National Science Council research project on labor contract law and contributed an essay on non-competition regulation.\r",
+      "連結": ""
+    },
+    {
+      "姓名": "黃丞儀",
+      "Name": "Cheng-Yi Huang",
+      "服務單位": "中央研究院法律學研究所",
+      "Organization": "Institutum Iurisprudentiae, Academia Sinica",
+      "職稱": "研究員兼代理副所長",
+      "Title": "Research Professor and Acting Deputy Director ",
+      "簡介": "黃丞儀，中央研究院法律學研究所研究員兼代理副所長，國立清華大學科技法律研究所合聘教授，於美國芝加哥大學法學院師從Cass R. Sunstein教授，取得法學博士（J.S.D.）。研究領域橫跨比較憲法政治、美國及比較行政法、法律與行為經濟學、成本效益分析、轉型正義、台灣法律史。黃研究員長期關注國家權力如何運作、如何被節制，以及在不同時空與制度脈絡下的變遷。曾主編 Constitutionalizing Transitional Justice（Routledge, 2022）、《2010行政管制與行政爭訟》、《2017行政管制與行政爭訟》等論文集，並與他人合編 Comparative Perspectives on Administrative Procedure（Carolina Academic Press, 2017），並為Oxford Handbook of Comparative Administrative Law作者之一，學術論文散見Law & Social Inquiry、Washington International Law Journal、國立臺灣大學法學論叢等中英文期刊與專書，並於司法官學院、法官學院、國家文官學院、公務人力發展學院擔任講座。近年研究聚焦於國家大型計畫的合理性分析、國家安全與行政權力、美國行政法的結構性轉變，並持續擔任臺灣民間真相與和解促進會理事，投入轉型正義的公共參與。 \r\n",
+      "Biography": "Cheng-Yi Huang is a Research Professor and Acting Deputy Director of the Institutum Iurisprudentiae, Academia Sinica, and holds a joint appointment as Professor at the Institute of Law for Science and Technology, National Tsing Hua University. He received his J.S.D. from the University of Chicago Law School, where he studied under Professor Cass R. Sunstein. His research spans comparative constitutional politics, U.S. and comparative administrative law, law and behavioral economics, cost-benefit analysis, transitional justice, and Taiwanese legal history. He has long been interested in how state power is exercised and constrained, and how it changes across time and institutional contexts. He is the editor of Constitutionalizing Transitional Justice (Routledge, 2022) and of two volumes on administrative regulation and litigation (2010 and 2017) published by Academia Sinica, co-editor of Comparative Perspectives on Administrative Procedure (Carolina Academic Press, 2017), and a contributor to The Oxford Handbook of Comparative Administrative Law. His articles have appeared in Chinese- and English-language journals and edited volumes, including Law & Social Inquiry, the Washington International Law Journal, and the National Taiwan University Law Journal. He has also lectured at the Academy for the Judiciary, the Judges Academy, the National Academy of Civil Service, and the Civil Service Development Institute. His recent research focuses on assessing the rationality of large-scale state projects, national security and executive power, and the structural transformation of U.S. administrative law. He continues to serve as a board member of the Taiwan Association for Truth and Reconciliation and remains engaged in public work on transitional justice.   ",
+      "連結": ""
+    },
+    {
+      "姓名": "劉育成",
+      "Name": "",
+      "服務單位": "",
+      "Organization": "",
+      "職稱": "",
+      "Title": "",
+      "簡介": "",
+      "Biography": "",
+      "連結": ""
+    },
+    {
+      "姓名": "林子儀",
+      "Name": "",
+      "服務單位": "",
+      "Organization": "",
+      "職稱": "",
+      "Title": "",
+      "簡介": "",
+      "Biography": "",
+      "連結": ""
+    },
+    {
+      "姓名": "劉定基",
+      "Name": "",
+      "服務單位": "",
+      "Organization": "",
+      "職稱": "",
+      "Title": "",
+      "簡介": "",
+      "Biography": "",
       "連結": ""
     }
   ],
@@ -350,19 +430,19 @@
       "編號": "0",
       "名稱": "主題演講",
       "Name": "Keynote Speech",
-      "主持人": ""
+      "主持人": "林子儀"
     },
     {
       "編號": "1",
       "名稱": "資料資本與新的消費模式",
       "Name": "",
-      "主持人": ""
+      "主持人": "黃丞儀"
     },
     {
       "編號": "2",
       "名稱": "資料資本與分配",
       "Name": "",
-      "主持人": ""
+      "主持人": "劉定基"
     },
     {
       "編號": "3",
@@ -374,7 +454,8 @@
       "編號": "4",
       "名稱": "新秀論壇",
       "Name": "Junior Scholars Forum",
-      "主持人": ""
+      "主持人": "邱文聰"
     }
-  ]
+  ],
+  "系列活動": []
 }
