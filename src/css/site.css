@@ -11,3 +11,4 @@ iframe { width: 100%; aspect-ratio: 4 / 3; border: 0; }
 .speaker-header { display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: start; margin-block-end: 1.5rem; }
 .speaker-header img { width: 12rem; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 0.5rem; }
 .speaker-header h1 { margin-block-end: 0.25rem; }
+.event-poster { display: block; max-width: min(100%, 20rem); height: auto; border-radius: 0.5rem; margin-block: 1rem; }

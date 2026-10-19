@@ -3,14 +3,21 @@ slug: events/index.html
 pageKey: events
 ---
 <h1>{{ L.events.heading }}</h1>
-{% if program.sideEvents.length %}
-{% for e in program.sideEvents %}
+{% if events.length %}
+{% for e in events %}
 <section>
-  <h2>{{ e | loc("name") }}</h2>
-  {% if e.date or e.startsAt %}<p>{% if e.date %}<time datetime="{{ e.date }}">{{ e.date }}</time>{% endif %}{% if e.startsAt and e.endsAt %}<time>{{ e.startsAt | timeRange(e.endsAt) }}</time>{% endif %}</p>{% endif %}
+  <hgroup>
+    <h2>{{ e | loc("name") }}</h2>
+    <p>{{ L.events["kind_" + e.kind] }}</p>
+  </hgroup>
+  {% if e.image %}<img class="event-poster" src="{{ e.image }}" alt="{{ e | loc('name') }}" width="{{ e.imageWidth }}" height="{{ e.imageHeight }}" loading="lazy">{% endif %}
+  {% if e.date or e.startsAt %}<p>{% if e.date %}<time datetime="{{ e.date }}">{{ e.date }}</time>{% endif %}{% if e.startsAt and e.endsAt %}<time>{{ e.startsAt | timeRange(e.endsAt) }}</time>{% endif %}{% if e | loc("note") %}{{ L.punct.parenOpen }}{{ e | loc("note") }}{{ L.punct.parenClose }}{% endif %}</p>{% endif %}
   {% if e | loc("venue") %}<p>{{ L.events.venue }}{{ L.punct.colon }}{{ e | loc("venue") }}</p>{% endif %}
+  {% for c in e.credits or [] %}<p>{{ L.events["role_" + c.role] }}{{ L.punct.colon }}{{ c | loc("name") }}{% set a = c | loc("affiliation") %}{% if a %}{{ L.punct.parenOpen }}{{ a }}{{ L.punct.parenClose }}{% endif %}</p>{% endfor %}
   {% for para in (e | loc("description")) | paragraphs %}<p>{{ para }}</p>{% endfor %}
-  {% if e.url %}<p><a href="{{ e.url }}">{{ L.events.link }}</a></p>{% endif %}
+  {% if e.registrationUrl %}<p><a role="button" href="{{ e.registrationUrl }}">{{ L.nav.register }}</a></p>{% endif %}
+  {% set orgs = e | loc("organizers") %}
+  {% if orgs %}<p><small>{{ L.events.organizers }}{{ L.punct.colon }}{{ orgs | join(L.punct.listSep) }}</small></p>{% endif %}
 </section>
 {% endfor %}
 {% else %}

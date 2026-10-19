@@ -122,24 +122,5 @@ export default async function () {
     }
   }
 
-  const sideEventRows = sheets["系列活動"] ?? [];
-  const sideEvents = sideEventRows
-    .filter((r) => "名稱" in r || "Name" in r)
-    .map((r) => ({
-      nameTW: r["名稱"],
-      nameEN: r["Name"],
-      date: r["日期"],
-      startsAt: r["開始時間"],
-      endsAt: r["結束時間"],
-      venueTW: r["地點"],
-      venueEN: r["Venue"],
-      descriptionTW: r["說明"],
-      descriptionEN: r["Description"],
-      url: r["連結"],
-    }));
-  if (sideEventRows.length && !sideEvents.length) {
-    console.warn("[program] 系列活動 sheet has unexpected columns, ignoring", sideEventRows.length, "rows");
-  }
-
-  return { sessions, people, blocks, sideEvents, speakerPages };
+  return { sessions, people, blocks, speakerPages };
 }

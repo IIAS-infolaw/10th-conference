@@ -1,0 +1,54 @@
+- kind: lecture
+  nameTW: The Politics of Public Health in the Pandemic Era
+  nameEN: The Politics of Public Health in the Pandemic Era
+  date: "2026-11-09"
+  startsAt: "15:30"
+  endsAt: "17:30"
+  noteTW: 15:10 開始報到
+  noteEN: Check-in opens at 15:10
+  venueTW: 國立臺灣大學公共衛生學院 604 教室
+  venueEN: Room 604, College of Public Health, National Taiwan University
+  image: /img/events/the-politics-of-public-health.png
+  imageWidth: 905
+  imageHeight: 1280
+  credits:
+    - role: speaker
+      nameTW: Deborah Lupton
+      nameEN: Deborah Lupton
+      affiliationTW: SHARP 教授，澳洲新南威爾斯大學
+      affiliationEN: SHARP Professor, University of New South Wales Sydney
+    - role: moderator
+      nameTW: 李柏翰
+      nameEN: Po-Han Lee
+      affiliationTW: 國立臺灣大學健康政策與管理研究所副教授
+      affiliationEN: Associate Professor, Institute of Health Policy and Management, National Taiwan University
+    - role: discussant
+      nameTW: 黃柏堯
+      nameEN: Poyao Huang
+      affiliationTW: 國立臺灣大學健康行為與社區科學研究所副教授
+      affiliationEN: Associate Professor, Institute of Health Behaviors and Community Sciences, National Taiwan University
+  descriptionTW: |
+    很高興邀請到澳洲新南威爾斯大學的 Deborah Lupton 教授來到臺大公共衛生學院演講！Lupton 教授是國際知名的社會學者，長期研究健康、身體、風險、數位科技與社會不平等，也是批判公共衛生與數位健康研究的重要學者。她的研究提醒我們，健康與疾病從來不只是生物醫學或個人行為的問題，也深深涉及社會文化、政治權力、科技治理，以及人們如何理解與經驗自身的身體。
+
+    本次演講以 The Politics of Public Health in the Pandemic Era 為題，邀請大家一起重新思考疫情時代的公共衛生政治——從風險與責任的界定、科學知識與專業權威，到國家治理、社會不平等與日常生活，公共衛生政策如何形塑我們理解健康、自由與集體責任的方式？
+
+    歡迎對公共衛生、社會學、法律、人權及科技與社會研究有興趣的朋友一起參與！
+  registrationUrl: https://docs.google.com/forms/d/e/1FAIpQLSdDTizCTK9xCqV5yZuyUYsiJ4SIM41P6RokAD2vqEpYjgHZPA/viewform
+  organizersTW:
+    - 中央研究院法律學研究所
+    - 國立臺灣大學健康政策與社會研究學分學程
+    - 國立臺灣大學公共衛生學院健康政策與管理研究所
+    - 國立臺灣大學人口健康與福祉研究中心
+  organizersEN:
+    - Institutum Iurisprudentiae, Academia Sinica
+    - Health Policy and Social Studies Program, National Taiwan University
+    - Institute of Health Policy and Management, College of Public Health, National Taiwan University
+    - Population Health and Welfare Research Center, National Taiwan University
+- kind: booktalk
+  nameTW: "Living Futures: Shortcuts to a Big Idea"
+  nameEN: "Living Futures: Shortcuts to a Big Idea"
+  date: "2026-11-10"
+  startsAt: "12:30"
+  endsAt: "14:00"
+  venueTW: 國立臺灣大學社會學系館 319 室
+  venueEN: Room 319, Department of Sociology Building, National Taiwan University
