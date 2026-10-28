@@ -189,7 +189,7 @@
       "Organization": "University of New South Wales Sydney",
       "職稱": "SHARP教授",
       "Title": "SHARP Professor",
-      "簡介": "",
+      "簡介": "Deborah Lupton 為澳洲新南威爾斯大學藝術、設計與建築學院SHARP講座教授，並同時任職於該校的社會政策研究中心與健康社會研究中心。他帶領Vitalities Lab研究團隊以及澳洲研究委員會「自動化決策與社會卓越中心」在新南威爾斯大學的團隊進行研究。\n他的研究具有跨學科特性，涵蓋社會學、媒體與文化研究，並經常運用以藝術為基礎與其他具創意性的方法來進行學術研究與社群參與。他長期關注數位科技、演算法、健康、風險與社會文化之間的關係，為醫療社會學領域重要的學者，近年也跨足未來社會學、生成式AI的批判研究等。\nLupton 榮獲多項重要學術殊榮，包括2017 年當選澳洲社會科學院（ASSA）院士、2024 年當選澳洲健康與醫學科學院（AAHMS）院士，以及2022年當選新南威爾斯皇家學會（RSNSW）院士，並曾獲得兩座榮譽博士學位。\n\nLupton 教授的研究核心在於批判性地檢視數位技術、資料化（datafication）與身體、健康、風險及自我的交織關係。她是數位社會研究的先驅，著有《數位社會學》（Digital Sociology）、《量化自我》（The Quantified Self）、《數位健康》（Digital Health）與《資料自我》（Data Selves）等多部里程碑專著。\n\n在理論與方法論創新上，她融合女性主義新唯物主義（Feminist New Materialism）與「超越人類視角」（More-than-human perspective），提出「人-資料裝配體」（human-data assemblages）與「活資料」（lively data）等核心概念。她主張個人資料並非去物質化的冰冷代碼，而是與人類肉體、感官及日常生活常軌動態糾纏、共同生成的活性實體。此外，她的研究領域亦廣泛涵蓋身體政治（如《脂肪》、《醫療文化》）、自動化決策（ADM）治理，以及 COVID-19 危機的社會影響研究。\n",
       "Biography": "Deborah Lupton is SHARP Professor in the Faculty of Arts, Design & Architecture, University of New South Wales (UNSW) Sydney, Australia. Her research is interdisciplinary, spanning sociology, media and cultural studies, and often involves arts-based and other creative methods for research and community engagement. She is located in the Centre for Social Research in Health and the Social Policy Research Centre, leading both the Vitalities Lab and the UNSW Node of the Australian Research Council Centre of Excellence for Automated Decision-Making and Society. Professor Lupton is an elected Fellow of the Academy of the Social Sciences in Australia, the Australian Academy of Health and Medical Sciences and the Royal Society of NSW, and has been awarded two honorary doctorates. She is the author/editor of more than 30 academic books.",
       "連結": ""
     },
@@ -404,22 +404,22 @@
     },
     {
       "姓名": "劉育成",
-      "Name": "",
-      "服務單位": "",
-      "Organization": "",
-      "職稱": "",
-      "Title": "",
-      "簡介": "",
-      "Biography": "",
+      "Name": "Yu-Cheng Liu",
+      "服務單位": "東吳大學社會學系",
+      "Organization": "Department of Sociology, Soochow University",
+      "職稱": "教授",
+      "Title": "Professor",
+      "簡介": "現職為東吳大學社會學系專任教授。主要研究專長為AI與社會學、科技與社會、俗民方法學、科技哲學、社會系統理論、社會創新與社會設計等。近年來參與國科會晶創人文計劃，探討未來晶片發展與可能的應用，並以科技藝術作品的形式，將晶片應用的未來想像融入對社會議題的反思之中。過去的研究計畫關注穿戴式裝置、聊天機器人應用、自動駕駛、血糖監控與胰島素注射技術、人工智能在健康照護產業之應用的跨國比較研究。相關學術著作刊登於國內外期刊，包括Techné、Current Sociology、Humanities & Social Sciences Communications、政治與社會哲學評論、資訊社會研究、思與言、中華傳播學刊等。",
+      "Biography": "Yu-Cheng Liu is a Professor in the Department of Sociology at Soochow University, Taiwan. His primary research interests include AI and sociology, science, technology and society, ethnomethodology, philosophy of technology, social systems theory, social innovation, and social design. In recent years, he has participated in the National Science and Technology Council’s “Humanities Innovative Contents-Driven Taiwan IC Industry: IC Design and Future Taiwan” Program, exploring the future development of chips and their potential applications. Through technology-based artworks, he brings imagined futures of chip applications into critical reflection on social issues. His previous research projects have examined wearable devices, chatbot applications, autonomous driving, blood glucose monitoring and insulin delivery technologies, and cross-national comparisons of AI applications in the healthcare industry. His work has appeared in Taiwanese and international journals, including Techné, Current Sociology, Humanities & Social Sciences Communications, SOCIETAS: A Journal for Philosophical Study of Public Affairs, Journal of Cyber Culture and Information Society, Thought and Words, and Taiwan Journal of Communication Research.\r",
       "連結": ""
     },
     {
       "姓名": "劉定基",
-      "Name": "",
-      "服務單位": "",
-      "Organization": "",
-      "職稱": "",
-      "Title": "",
+      "Name": "Ting-Chi Liu",
+      "服務單位": "國立政治大學法律學系",
+      "Organization": "Department of Law, National Chengchi Univerisity",
+      "職稱": "教授",
+      "Title": "Professor",
       "簡介": "",
       "Biography": "",
       "連結": ""
@@ -434,19 +434,19 @@
     },
     {
       "編號": "1",
-      "名稱": "資料資本與新的消費模式",
+      "名稱": "場次一",
       "Name": "",
       "主持人": "黃丞儀"
     },
     {
       "編號": "2",
-      "名稱": "資料資本與分配",
+      "名稱": "場次二",
       "Name": "",
       "主持人": "劉定基"
     },
     {
       "編號": "3",
-      "名稱": "資料資本與新的生產模式",
+      "名稱": "場次三",
       "Name": "",
       "主持人": "莊庭瑞"
     },
@@ -454,7 +454,7 @@
       "編號": "4",
       "名稱": "新秀論壇",
       "Name": "Junior Scholars Forum",
-      "主持人": "邱文聰"
+      "主持人": "吳全峰"
     }
   ]
 }
