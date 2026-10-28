@@ -48,18 +48,9 @@
   </main>
   <footer>
     <ul class="footer-logos">
-      <li><picture>
-        <source srcset="/img/dark/iias.svg" media="(prefers-color-scheme: dark)">
-        <img src="/img/iias.svg" width="256" height="61" alt="{{ L.logos.iias }}">
-      </picture></li>
-      <li><picture>
-        <source srcset="/img/dark/iias-infolaw.svg" media="(prefers-color-scheme: dark)">
-        <img src="/img/iias-infolaw.svg" width="276" height="128" alt="{{ L.logos.infolaw }}">
-      </picture></li>
-      <li><picture>
-        <source srcset="/img/dark/aicoe.svg" media="(prefers-color-scheme: dark)">
-        <img src="/img/aicoe.svg" width="256" height="64" alt="{{ L.logos.aicoe }}">
-      </picture></li>
+      <li><img src="/img/iias.svg" width="256" height="61" alt="{{ L.logos.iias }}"></li>
+      <li><img src="/img/iias-infolaw.svg" width="276" height="128" alt="{{ L.logos.infolaw }}"></li>
+      <li><img src="/img/aicoe.svg" width="256" height="64" alt="{{ L.logos.aicoe }}"></li>
     </ul>
     {% if site | loc("organizer") %}<p>{{ site | loc("organizer") }}</p>{% endif %}
     {% if site.contactEmail %}<p><a href="mailto:{{ site.contactEmail }}">{{ site.contactEmail }}</a></p>{% endif %}
