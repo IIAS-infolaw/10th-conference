@@ -2,7 +2,10 @@
 slug: index.html
 pageKey: home
 ---
-<h1>{{ site | loc("name") }}</h1>
+<h1 class="site-title"><picture>
+  <source srcset="/img/dark/title.svg" media="(prefers-color-scheme: dark)">
+  <img src="/img/title.svg" width="372" height="284" alt="{{ site | loc('name') }}">
+</picture></h1>
 {% if site | loc("subtitle") %}<p>{{ site | loc("subtitle") }}</p>{% endif %}
 {% if site.date %}<p><time datetime="{{ site.date }}">{{ site.date }}</time>{% if site | loc("venueName") %} · {{ site | loc("venueName") }}{% endif %}</p>{% endif %}
 {% if site.registrationUrl %}<p><a role="button" href="{{ site.registrationUrl }}">{{ L.nav.register }}</a></p>{% endif %}

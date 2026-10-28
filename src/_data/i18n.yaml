@@ -5,6 +5,7 @@ tw:
   speakers: { role_speaker: 報告人, role_discussant: 評論人, role_moderator: 主持人, session: 場次, appearances: 議程參與, website: 個人網站, back: 返回講者列表 }
   venue: { heading: 會場與交通 }
   events: { heading: 系列活動, venue: 地點, organizers: 主辦單位, role_speaker: 主講, role_moderator: 主持, role_discussant: 與談, kind_lecture: 專題演講, kind_booktalk: 新書演講 }
+  logos: { iias: 中央研究院法律學研究所, infolaw: 中央研究院法律學研究所資訊法中心, aicoe: 臺灣 AI 卓越中心 }
   switchLanguage: English
   comingSoon: 敬請期待
 en:
@@ -14,5 +15,6 @@ en:
   speakers: { role_speaker: Presenter, role_discussant: Discussant, role_moderator: Moderator, session: Session, appearances: Appearances, website: Personal website, back: Back to speakers }
   venue: { heading: Venue & Directions }
   events: { heading: Series Event, venue: Venue, organizers: Organizers, role_speaker: Speaker, role_moderator: Moderator, role_discussant: Discussant, kind_lecture: Lecture, kind_booktalk: Book Talk }
+  logos: { iias: "Institutum Iurisprudentiae, Academia Sinica", infolaw: "Information Law Center, IIAS", aicoe: "Taiwan AI Center of Excellence" }
   switchLanguage: 華語
   comingSoon: Coming Soon

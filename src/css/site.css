@@ -12,3 +12,7 @@ iframe { width: 100%; aspect-ratio: 4 / 3; border: 0; }
 .speaker-header img { width: 12rem; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 0.5rem; }
 .speaker-header h1 { margin-block-end: 0.25rem; }
 .event-poster { display: block; max-width: min(100%, 20rem); height: auto; border-radius: 0.5rem; margin-block: 1rem; }
+.site-title img { display: block; width: 100%; max-width: 32rem; height: auto; }
+.footer-logos { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; list-style: none; padding: 0; margin-block-end: 1rem; }
+.footer-logos li { margin: 0; list-style: none; }
+.footer-logos img { display: block; width: 12rem; height: auto; }
