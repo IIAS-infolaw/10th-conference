@@ -92,7 +92,7 @@ export default async function () {
         console.warn("[program] unknown session number:", number);
         session = { number, nameTW: number, nameEN: "", moderator: null };
       }
-      block = { kind: "session", number, session, startsAt, endsAt, talks: [] };
+      block = { kind: "session", number, session, startsAt, endsAt, talks: [], discussants: [] };
       sessionBlocks.set(number, block);
       blocks.push(block);
     }
@@ -100,26 +100,25 @@ export default async function () {
       titleTW: r["題目"],
       titleEN: r["Topic"],
       speakers: [r["報告人1"], r["報告人2"]].map(resolvePerson).filter(Boolean),
-      discussant: resolvePerson(r["評論人"]),
       paperUrl: r["文章連結"],
     };
     block.talks.push(talk);
+    const discussant = resolvePerson(r["評論人"]);
+    if (discussant && !block.discussants.some((d) => d.key === discussant.key)) {
+      block.discussants.push(discussant);
+    }
     if (startsAt < block.startsAt) block.startsAt = startsAt;
     if (endsAt > block.endsAt) block.endsAt = endsAt;
 
     for (const p of talk.speakers) {
       p.appearances.push({ role: "speaker", blockNumber: number, titleTW: talk.titleTW, titleEN: talk.titleEN });
     }
-    if (talk.discussant) {
-      talk.discussant.appearances.push({ role: "discussant", blockNumber: number, titleTW: talk.titleTW, titleEN: talk.titleEN });
-    }
   }
 
   for (const b of sessionBlocks.values()) {
-    const m = b.session.moderator;
-    if (m) {
-      m.appearances.push({ role: "moderator", blockNumber: b.number, titleTW: b.session.nameTW, titleEN: b.session.nameEN });
-    }
+    const at = { blockNumber: b.number, titleTW: b.session.nameTW, titleEN: b.session.nameEN };
+    if (b.session.moderator) b.session.moderator.appearances.push({ role: "moderator", ...at });
+    for (const d of b.discussants) d.appearances.push({ role: "discussant", ...at });
   }
 
   return { sessions, people, blocks, speakerPages };

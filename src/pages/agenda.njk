@@ -12,6 +12,7 @@ pageKey: agenda
 <section>
   <h2><time>{{ block.startsAt | timeRange(block.endsAt) }}</time> {{ block.session | loc("name") }}</h2>
   {% if block.session.moderator %}<p>{{ L.agenda.moderator }}{{ L.punct.colon }}{{ block.session.moderator | loc("name") }}</p>{% endif %}
+  {% if block.discussants.length %}<p>{{ L.agenda.discussants if block.discussants.length > 1 else L.agenda.discussant }}{{ L.punct.colon }}{% for p in block.discussants %}{{ p | loc("name") }}{% if not loop.last %}{{ L.punct.listSep }}{% endif %}{% endfor %}</p>{% endif %}
   {% set numbered = block.talks.length > 1 %}
   {% if numbered %}<ol>{% endif %}
     {% for talk in block.talks %}
@@ -20,7 +21,6 @@ pageKey: agenda
       {% if talk.speakers.length %}
       <p>{{ L.agenda.presenter }}{{ L.punct.colon }}{% for p in talk.speakers %}{{ p | loc("name") }}{% set o = p | loc("org") %}{% set t = p | loc("title") %}{% if o or t %}{{ L.punct.parenOpen }}{{ o }}{% if o and t %} · {% endif %}{{ t }}{{ L.punct.parenClose }}{% endif %}{% if not loop.last %}{{ L.punct.listSep }}{% endif %}{% endfor %}</p>
       {% endif %}
-      {% if talk.discussant %}<p>{{ L.agenda.discussant }}{{ L.punct.colon }}{{ talk.discussant | loc("name") }}</p>{% endif %}
       {% if talk.paperUrl %}<p><a href="{{ talk.paperUrl }}">{{ L.agenda.paper }}</a></p>{% endif %}
     {% if numbered %}</li>{% endif %}
     {% endfor %}
