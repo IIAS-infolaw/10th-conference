@@ -15,8 +15,8 @@
     - role: speaker
       nameTW: Deborah Lupton
       nameEN: Deborah Lupton
-      affiliationTW: SHARP 教授，澳洲新南威爾斯大學
-      affiliationEN: SHARP Professor, University of New South Wales Sydney
+      affiliationTW: 澳洲新南威爾斯大學 SHARP 講座教授
+      affiliationEN: SHARP Professor, Vitalities Lab, University of New South Wales Sydney
     - role: moderator
       nameTW: 李柏翰
       nameEN: Po-Han Lee
@@ -28,10 +28,7 @@
       affiliationTW: 國立臺灣大學健康行為與社區科學研究所副教授
       affiliationEN: Associate Professor, Institute of Health Behaviors and Community Sciences, National Taiwan University
   descriptionTW: |
-    很高興邀請到澳洲新南威爾斯大學的 Deborah Lupton 教授來到臺大公共衛生學院演講！Lupton 教授是國際知名的社會學者，長期研究健康、身體、風險、數位科技與社會不平等，也是批判公共衛生與數位健康研究的重要學者。她的研究提醒我們，健康與疾病從來不只是生物醫學或個人行為的問題，也深深涉及社會文化、政治權力、科技治理，以及人們如何理解與經驗自身的身體。
-
     本次演講以 The Politics of Public Health in the Pandemic Era 為題，邀請大家一起重新思考疫情時代的公共衛生政治——從風險與責任的界定、科學知識與專業權威，到國家治理、社會不平等與日常生活，公共衛生政策如何形塑我們理解健康、自由與集體責任的方式？
-
     歡迎對公共衛生、社會學、法律、人權及科技與社會研究有興趣的朋友一起參與！
   registrationUrl: https://docs.google.com/forms/d/e/1FAIpQLSdDTizCTK9xCqV5yZuyUYsiJ4SIM41P6RokAD2vqEpYjgHZPA/viewform
   organizersTW:
@@ -52,3 +49,22 @@
   endsAt: "14:00"
   venueTW: 國立臺灣大學社會學系館 319 室
   venueEN: Room 319, Department of Sociology Building, National Taiwan University
+  image: /img/events/living-futures.jpg
+  imageWidth: 724
+  imageHeight: 1024
+  credits:
+    - role: speaker
+      nameTW: Deborah Lupton
+      nameEN: Deborah Lupton
+      affiliationTW: 澳洲新南威爾斯大學 SHARP 講座教授
+      affiliationEN: SHARP Professor, Vitalities Lab, University of New South Wales Sydney
+    - role: moderator
+      nameTW: 劉仲恩
+      nameEN: John Chung-En Liu
+      affiliationTW: 國立臺灣大學社會學系主任暨教授
+      affiliationEN: Associate Professor, Department of Sociology, National Taiwan University
+  descriptionTW: |
+    本次演講將介紹 Deborah Lupton 教授的新書 Living Futures: Shortcuts to a Big Idea（Routledge，2026），探討人們如何透過日常社會與文化實踐想像並準備未來，並結合歷史、社會學、文化地理、藝術設計及人類學等觀點，提出重新想像與實踐未來的方法。
+  descriptionEN: |
+    This presentation provides an overview of my new book Living Futures: Shortcuts to a Big Idea (Routledge, 2026). The book presents an overview of how people engage in lay futuring: that is, social and cultural practices of imagining and preparing for the future. I will discuss the insights offered by the history, sociology, cultural geography, the arts and design, and anthropology of these practices, spanning eras and cultural contexts. I will end with some provocations and methods for new ways of imagining and practising futures.
+  registrationUrl: https://forms.gle/b7mZTnP5XZrbxDmB9
