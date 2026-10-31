@@ -15,18 +15,24 @@
     - role: speaker
       nameTW: Deborah Lupton
       nameEN: Deborah Lupton
-      affiliationTW: 澳洲新南威爾斯大學 SHARP 講座教授
-      affiliationEN: SHARP Professor, Vitalities Lab, University of New South Wales Sydney
+      orgTW: 澳洲新南威爾斯大學
+      orgEN: Vitalities Lab, University of New South Wales Sydney
+      titleTW: SHARP 講座教授
+      titleEN: SHARP Professor
     - role: moderator
       nameTW: 李柏翰
       nameEN: Po-Han Lee
-      affiliationTW: 國立臺灣大學健康政策與管理研究所副教授
-      affiliationEN: Associate Professor, Institute of Health Policy and Management, National Taiwan University
+      orgTW: 國立臺灣大學健康政策與管理研究所
+      orgEN: Institute of Health Policy and Management, National Taiwan University
+      titleTW: 副教授
+      titleEN: Associate Professor
     - role: discussant
       nameTW: 黃柏堯
       nameEN: Poyao Huang
-      affiliationTW: 國立臺灣大學健康行為與社區科學研究所副教授
-      affiliationEN: Associate Professor, Institute of Health Behaviors and Community Sciences, National Taiwan University
+      orgTW: 國立臺灣大學健康行為與社區科學研究所
+      orgEN: Institute of Health Behaviors and Community Sciences, National Taiwan University
+      titleTW: 副教授
+      titleEN: Associate Professor
   descriptionTW: |
     本次演講以 The Politics of Public Health in the Pandemic Era 為題，邀請大家一起重新思考疫情時代的公共衛生政治——從風險與責任的界定、科學知識與專業權威，到國家治理、社會不平等與日常生活，公共衛生政策如何形塑我們理解健康、自由與集體責任的方式？
     歡迎對公共衛生、社會學、法律、人權及科技與社會研究有興趣的朋友一起參與！
@@ -56,13 +62,17 @@
     - role: speaker
       nameTW: Deborah Lupton
       nameEN: Deborah Lupton
-      affiliationTW: 澳洲新南威爾斯大學 SHARP 講座教授
-      affiliationEN: SHARP Professor, Vitalities Lab, University of New South Wales Sydney
+      orgTW: 澳洲新南威爾斯大學
+      orgEN: Vitalities Lab, University of New South Wales Sydney
+      titleTW: SHARP 講座教授
+      titleEN: SHARP Professor
     - role: moderator
       nameTW: 劉仲恩
       nameEN: John Chung-En Liu
-      affiliationTW: 國立臺灣大學社會學系主任暨教授
-      affiliationEN: Associate Professor, Department of Sociology, National Taiwan University
+      orgTW: 國立臺灣大學社會學系
+      orgEN: Department of Sociology, National Taiwan University
+      titleTW: 主任暨教授
+      titleEN: Professor and Department Chair
   descriptionTW: |
     本次演講將介紹 Deborah Lupton 教授的新書 Living Futures: Shortcuts to a Big Idea（Routledge，2026），探討人們如何透過日常社會與文化實踐想像並準備未來，並結合歷史、社會學、文化地理、藝術設計及人類學等觀點，提出重新想像與實踐未來的方法。
   descriptionEN: |

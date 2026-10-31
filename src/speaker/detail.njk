@@ -2,7 +2,7 @@
   <img src="{{ person.photo }}" alt="{{ person | loc('name') }}" width="240" height="240">
   <div>
     <h1>{{ person | loc("name") }}</h1>
-    <p>{{ person | loc("org") }}{% if (person | loc("org")) and (person | loc("title")) %} · {% endif %}{{ person | loc("title") }}</p>
+    <p>{{ person | affiliation }}</p>
     {% if person.url %}<p><a href="{{ person.url }}" rel="noopener">{{ L.speakers.website }}</a></p>{% endif %}
   </div>
 </div>
@@ -12,7 +12,7 @@
 <h2>{{ L.speakers.appearances }}</h2>
 <ul>
   {% for a in person.appearances %}
-  <li>{{ L.speakers["role_" + a.role] }} · {{ L.speakers.session }} {{ a.blockNumber }}{% set t = a | loc("title") %}{% if t or a.role != "moderator" %} · {{ t or L.agenda.tba }}{% endif %}</li>
+  <li>{% set t = a | loc("title") %}{% if t or a.role != "moderator" %}{{ t or L.agenda.tba }}{% endif %}（{{ L.speakers["role_" + a.role] }}）</li>
   {% endfor %}
 </ul>
 {% endif %}

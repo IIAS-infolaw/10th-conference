@@ -19,7 +19,7 @@ pageKey: agenda
     {% if numbered %}<li>{% endif %}
       <h3>{{ (talk | loc("title")) or L.agenda.tba }}</h3>
       {% if talk.speakers.length %}
-      <p>{{ L.agenda.presenter }}{{ L.punct.colon }}{% for p in talk.speakers %}{{ p | loc("name") }}{% set o = p | loc("org") %}{% set t = p | loc("title") %}{% if o or t %}{{ L.punct.parenOpen }}{{ o }}{% if o and t %} · {% endif %}{{ t }}{{ L.punct.parenClose }}{% endif %}{% if not loop.last %}{{ L.punct.listSep }}{% endif %}{% endfor %}</p>
+      <p>{{ L.agenda.presenter }}{{ L.punct.colon }}{% for p in talk.speakers %}{{ p | loc("name") }}{% set a = p | affiliation %}{% if a %}{{ L.punct.parenOpen }}{{ a }}{{ L.punct.parenClose }}{% endif %}{% if not loop.last %}{{ L.punct.listSep }}{% endif %}{% endfor %}</p>
       {% endif %}
       {% if talk.paperUrl %}<p><a href="{{ talk.paperUrl }}">{{ L.agenda.paper }}</a></p>{% endif %}
     {% if numbered %}</li>{% endif %}

@@ -10,7 +10,7 @@ pageKey: speakers
     <img src="{{ person.photo }}" alt="" width="200" height="200" loading="lazy">
     <strong>{{ person | loc("name") }}</strong>
     {% if person.slug %}</a>{% endif %}
-    <small>{{ person | loc("org") }}{% if (person | loc("org")) and (person | loc("title")) %} · {% endif %}{{ person | loc("title") }}</small>
+    <small>{{ person | affiliation }}</small>
   </li>
   {% endfor %}
 </ul>
