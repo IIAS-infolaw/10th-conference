@@ -8,6 +8,7 @@ tw:
   logos: { iias: 中央研究院法律學研究所, infolaw: 中央研究院法律學研究所資訊法中心, aicoe: 臺灣 AI 卓越中心 }
   switchLanguage: English
   comingSoon: 敬請期待
+  date: 2026年11月6日（五）
 en:
   nav: { home: Home, agenda: Agenda, speakers: Speakers, events: Series Event, venue: Venue, register: Register }
   agenda: { tba: (TBA), moderator: Moderator, discussant: Discussant, discussants: Discussants, presenter: Presenter, paper: Paper }
@@ -18,3 +19,4 @@ en:
   logos: { iias: "Institutum Iurisprudentiae, Academia Sinica", infolaw: "Information Law Center, IIAS", aicoe: "Taiwan AI Center of Excellence" }
   switchLanguage: 華語
   comingSoon: Coming Soon
+  date: Friday, November 6, 2026
