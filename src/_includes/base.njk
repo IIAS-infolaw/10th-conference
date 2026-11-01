@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 {%- set metaLabel = pageTitle or (L.nav[pageKey] if pageKey != "home") %}
 {%- set metaTitle = (metaLabel + " · " + L.name) if metaLabel else L.name %}
-{%- set metaDesc %}{{ L.subtitle }}{% if site.date %} · {{ site.date }}{% endif %}{% if L.venue.name %} · {{ L.venue.name }}{% endif %}{% endset %}
+{%- set metaDesc %}{{ L.description }} · {{ site.date }} · {{ L.venue.name }}{% endset %}
 {%- set canonicalUrl = site.baseUrl + (page.url | url) %}
   <title>{{ metaTitle }}</title>
   <meta name="description" content="{{ metaDesc }}">
