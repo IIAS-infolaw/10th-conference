@@ -4,11 +4,11 @@ pageKey: home
 ---
 <header class="hero">
   <div class="cans"></div>
-  <h1 class="title item"><img src="/img/title.svg" width="640" height="480" alt="{{ site | loc('name') }}"></h1>
-  <h2 class="subtitle item"><img src="/img/subtitle.svg" width="560" height="93" alt="{{ site | loc('subtitle') }}"></h2>
+  <h1 class="title item"><img src="/img/title.svg" width="640" height="480" alt="{{ L.name }}"></h1>
+  <h2 class="subtitle item"><img src="/img/subtitle.svg" width="560" height="93" alt="{{ L.subtitle }}"></h2>
   <div class="info item">
     <div><time datetime="{{ site.date }}">{{ L.date }}</time></div>
-    <div class="venue">{{ site | loc("venueName") }}</div>
+    <div class="venue">{{ L.venue.name }}</div>
     <a role="button" href="{{ site.registrationUrl }}">{{ L.nav.register }}</a>
   </div>
   <nav>

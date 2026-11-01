@@ -1,25 +1,49 @@
 tw:
+  name: 形構數位自我：資料、資本與正義
+  title: 形構數位自我
+  subtitle: 資料、資本與正義
+  description: 第十屆「科技發展與法律規範」學術研討會
   nav: { home: 首頁, intro: 簡介, agenda: 議程, speakers: 講者, events: 系列活動, venue: 交通,  register: 報名 }
   agenda: { tba: （待定）, moderator: 主持人, discussant: 評論人, discussants: 評論人, presenter: 報告人, paper: 文章連結 }
   punct: { colon: ：, listSep: 、, parenOpen: （, parenClose: ） }
   roles: { speaker: 報告人, discussant: 評論人, moderator: 主持人 }
   speakers: { session: 場次, appearances: 議程, website: 個人網站 }
-  venue: { heading: 會場交通 }
+  venue:
+    heading: 會場交通
+    name: 中央研究院人文社會科學館
+    address: 台北市南港區研究院路二段128號
+    directions: 搭乘台北捷運至南港站（板南線）、南港展覽館站（板南線、文湖線），再換乘公車或騎乘YouBike至中央研究院。
   events: { heading: 系列活動, venue: 地點, organizers: 主辦單位, kind_lecture: 專題演講, kind_booktalk: 新書演講 }
-  intro: { heading: 簡介 }
+  intro:
+    heading: 簡介
+    design: |
+      本次研討會海報以流行藝術為創作靈感，透過重複拼貼台灣家喻戶曉的甜湯罐頭圖案象徵資本市場下的大規模資料重製；在展現台灣日常生活的飲食文化之餘，也藉由喚起電腦揀土豆、八寶配料的記憶符碼，呼應科技寡頭於演算法自動化決策與資料資本的軍備競賽。
+      罐頭圖案標示「寡頭牌資料」，「利他蒐集、無添加物」，並且「AI加量不加價！」，並汲取各家AI公司logo之形狀特徵，繪製成花瓣與花蕊。全圖經手工繪製並著色後，以生成式模型將完稿之向量圖轉換成水彩風格、並後製完稿。
   logos: { iias: 中央研究院法律學研究所, infolaw: 中央研究院法律學研究所資訊法中心, aicoe: 臺灣 AI 卓越中心 }
   switchLanguage: English
   comingSoon: 敬請期待
   date: 2026年11月6日（五）
 en:
+  name: "Contours of the Digital Self: Data, Capital, and the Struggle for Justice"
+  title: Contours of the Digital Self
+  subtitle: Data, Capital, and the Struggle for Justice
+  description: "The 10th Academia Sinica Conference on Law, Science and Technology"
   nav: { home: Home, intro: Intro, agenda: Agenda, speakers: Speakers, events: Series Event, venue: Venue, register: Register }
   agenda: { tba: (TBA), moderator: Moderator, discussant: Discussant, discussants: Discussants, presenter: Presenter, paper: Paper }
   punct: { colon: ": ", listSep: ", ", parenOpen: " (", parenClose: ")" }
   roles: { speaker: Presenter, discussant: Discussant, moderator: Moderator }
   speakers: { session: Session, appearances: Appearances, website: Personal website }
-  venue: { heading: Venue & Directions }
+  venue:
+    heading: Venue & Directions
+    name: Humanities and Social Sciences Building, Academia Sinica
+    address: 128 Academia Rd. Sec. 2, Nangang District, Taipei City
+    directions: Take the Taipei Metro to Nangang Station (Bannan Line) or Nangang Exhibition Center Station (Bannan Line & Wenhu Line), then take a bus or ride a YouBike to the Academia Sinica.
   events: { heading: Series Event, venue: Venue, organizers: Organizers, kind_lecture: Lecture, kind_booktalk: Book Talk }
-  intro: { heading: Introduction }
+  intro:
+    heading: Introduction
+    design: |
+      Inspired by Pop Art, the conference poster uses a repeating collage of canned sweet soup to symbolize mass data reproduction under capitalism. The design intentionally referenced two iconic Taiwanese brand desserts, the peanut milk soup and the eight-treasure congee, to play with both the cultural nostalgia and the famous yet now-unsettling “computer picks the peanuts for you” ad trope—paralleling tech oligarchies’ arms race in automated decision-making and data capitalism.
+      The cans are labeled with “Oligarch”-branded “datum,” promised to be “altruistically gathered, no additives,” and “now with more AI!” The floral elements incorporate the shapes of various AI company logos. The artwork was first drawn and colored digitally as a vector graphic, transformed into watercolor style with a generative model, and finalized through post-processing.
   logos: { iias: "Institutum Iurisprudentiae, Academia Sinica", infolaw: "Information Law Center, IIAS", aicoe: "Taiwan AI Center of Excellence" }
   switchLanguage: 華語
   comingSoon: Coming Soon

@@ -12,7 +12,7 @@ npm run dev     # http://localhost:8080/10th-conference/
 
 ## Updating
 
-Agenda, speakers and sessions are generated at build time from a Google Sheet. One-off facts (name, date, venue, registration link, about/directions text) live in `src/_data/site.yaml`.
+Agenda, speakers and sessions are generated at build time from a Google Sheet. Language-neutral facts (date, URLs, social image) live in `src/_data/site.yaml`; all display text, including the conference name, subtitle, venue name, address and directions, lives per-locale in `src/_data/i18n.yaml`.
 
 - Live data is fetched on every build (cached 1 hour in `.cache/`).
 - If the fetch fails, or `SHEET_OFFLINE=1` is set, the build uses the committed `src/_data/snapshot.json`.
