@@ -4,22 +4,24 @@ pageKey: events
 ---
 <h1>{{ L.events.heading }}</h1>
 {% if events.length %}
+<div class="events">
 {% for e in events %}
 <section>
   <hgroup>
-    <h2>{{ e | loc("name") }}</h2>
-    <p>{{ L.events["kind_" + e.kind] }}</p>
+    <h2>{{ L.events["kind_" + e.kind] }}</h2>
+    <h3>{{ e | loc("name") }}</h3>
   </hgroup>
   {% if e.image %}<img class="event-poster" src="{{ e.image }}" alt="{{ e | loc('name') }}" width="{{ e.imageWidth }}" height="{{ e.imageHeight }}" loading="lazy">{% endif %}
-  {% if e.date or e.startsAt %}<p>{% if e.date %}<time datetime="{{ e.date }}">{{ e.date }}</time>{% endif %}{% if e.startsAt and e.endsAt %}<time>{{ e.startsAt | timeRange(e.endsAt) }}</time>{% endif %}{% if e | loc("note") %}{{ L.punct.parenOpen }}{{ e | loc("note") }}{{ L.punct.parenClose }}{% endif %}</p>{% endif %}
-  {% if e | loc("venue") %}<p>{{ L.events.venue }}{{ L.punct.colon }}{{ e | loc("venue") }}</p>{% endif %}
-  {% for c in e.credits or [] %}<p>{{ L.events["role_" + c.role] }}{{ L.punct.colon }}{{ c | loc("name") }}{% set a = c | affiliation %}{% if a %}{{ L.punct.parenOpen }}{{ a }}{{ L.punct.parenClose }}{% endif %}</p>{% endfor %}
-  {% for para in (e | loc("description")) | paragraphs %}<p>{{ para }}</p>{% endfor %}
+  {% if e.date or e.startsAt %}<p>{% if e.date %}<strong><time datetime="{{ e.date }}">{{ e.date }}</time></strong>{% endif %} {% if e.startsAt and e.endsAt %}<time>{{ e.startsAt | timeRange(e.endsAt) }}</time>{% endif %}{% if e | loc("note") %}{{ L.punct.parenOpen }}{{ e | loc("note") }}{{ L.punct.parenClose }}{% endif %}</p>{% endif %}
   {% if e.registrationUrl %}<p><a role="button" href="{{ e.registrationUrl }}">{{ L.nav.register }}</a></p>{% endif %}
+  {% if e | loc("venue") %}<p><strong>{{ L.events.venue }}{{ L.punct.colon }}</strong>{{ e | loc("venue") }}</p>{% endif %}
+  {% for c in e.credits or [] %}<p><strong>{{ L.roles[c.role] }}{{ L.punct.colon }}</strong>{{ c | loc("name") }}{% set a = c | affiliation %}{% if a %}{{ L.punct.parenOpen }}{{ a }}{{ L.punct.parenClose }}{% endif %}</p>{% endfor %}
+  {% for para in (e | loc("description")) | paragraphs %}<p>{{ para }}</p>{% endfor %}
   {% set orgs = e | loc("organizers") %}
-  {% if orgs %}<p><small>{{ L.events.organizers }}{{ L.punct.colon }}{{ orgs | join(L.punct.listSep) }}</small></p>{% endif %}
+  {% if orgs %}<p><small><strong>{{ L.events.organizers }}{{ L.punct.colon }}</strong>{{ orgs | join(L.punct.listSep) }}</small></p>{% endif %}
 </section>
 {% endfor %}
+</div>
 {% else %}
 <p>{{ L.comingSoon }}</p>
 {% endif %}

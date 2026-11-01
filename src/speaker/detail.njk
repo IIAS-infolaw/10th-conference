@@ -12,8 +12,7 @@
 <h2>{{ L.speakers.appearances }}</h2>
 <ul>
   {% for a in person.appearances %}
-  <li>{% set t = a | loc("title") %}{% if t or a.role != "moderator" %}{{ t or L.agenda.tba }}{% endif %}（{{ L.speakers["role_" + a.role] }}）</li>
+  <li>{% set t = a | loc("title") %}{% if t or a.role != "moderator" %}{{ t or L.agenda.tba }}{% endif %}（{{ L.roles[a.role] }}）</li>
   {% endfor %}
 </ul>
 {% endif %}
-<p><a href="/{{ locale.prefix }}speakers/">{{ L.speakers.back }}</a></p>
