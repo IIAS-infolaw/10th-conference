@@ -1,23 +1,25 @@
 tw:
-  nav: { home: 首頁, agenda: 議程, speakers: 講者, events: 系列活動, venue: 交通, register: 報名 }
+  nav: { home: 首頁, intro: 簡介, agenda: 議程, speakers: 講者, events: 系列活動, venue: 交通,  register: 報名 }
   agenda: { tba: （待定）, moderator: 主持人, discussant: 評論人, discussants: 評論人, presenter: 報告人, paper: 文章連結 }
   punct: { colon: ：, listSep: 、, parenOpen: （, parenClose: ） }
   roles: { speaker: 報告人, discussant: 評論人, moderator: 主持人 }
   speakers: { session: 場次, appearances: 議程, website: 個人網站 }
   venue: { heading: 會場交通 }
   events: { heading: 系列活動, venue: 地點, organizers: 主辦單位, kind_lecture: 專題演講, kind_booktalk: 新書演講 }
+  intro: { heading: 簡介 }
   logos: { iias: 中央研究院法律學研究所, infolaw: 中央研究院法律學研究所資訊法中心, aicoe: 臺灣 AI 卓越中心 }
   switchLanguage: English
   comingSoon: 敬請期待
   date: 2026年11月6日（五）
 en:
-  nav: { home: Home, agenda: Agenda, speakers: Speakers, events: Series Event, venue: Venue, register: Register }
+  nav: { home: Home, intro: Intro, agenda: Agenda, speakers: Speakers, events: Series Event, venue: Venue, register: Register }
   agenda: { tba: (TBA), moderator: Moderator, discussant: Discussant, discussants: Discussants, presenter: Presenter, paper: Paper }
   punct: { colon: ": ", listSep: ", ", parenOpen: " (", parenClose: ")" }
   roles: { speaker: Presenter, discussant: Discussant, moderator: Moderator }
   speakers: { session: Session, appearances: Appearances, website: Personal website }
   venue: { heading: Venue & Directions }
   events: { heading: Series Event, venue: Venue, organizers: Organizers, kind_lecture: Lecture, kind_booktalk: Book Talk }
+  intro: { heading: Introduction }
   logos: { iias: "Institutum Iurisprudentiae, Academia Sinica", infolaw: "Information Law Center, IIAS", aicoe: "Taiwan AI Center of Excellence" }
   switchLanguage: 華語
   comingSoon: Coming Soon
