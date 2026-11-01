@@ -1,4 +1,4 @@
-body { text-autospace: normal; text-autospace: normal replace; }
+:root { text-autospace: normal; text-autospace: normal replace; }
 header nav ul { display: flex; flex-wrap: wrap; gap: 1rem; list-style: none; padding: 0; }
 main section { margin-block-end: 2rem; }
 main time { font-variant-numeric: tabular-nums; margin-inline-end: 0.5rem; }
@@ -17,3 +17,9 @@ iframe { width: 100%; aspect-ratio: 4 / 3; border: 0; }
 .footer-logos { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; list-style: none; padding: 0; margin-block-end: 1rem; }
 .footer-logos li { margin: 0; list-style: none; }
 .footer-logos img { display: block; width: 12rem; height: auto; }
+
+body { background: url('../img/watercolor.jpg') center / 800px 800px repeat; }
+@media only screen and (prefers-color-scheme: dark) {
+    body { background: url('../img/watercolor-dark.jpg') center / 800px 800px repeat; }
+}
+header { font-family: Optima, 'Source Han Serif TC', sans-serif; font-synthesis-weight: none; }
