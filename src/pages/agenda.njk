@@ -17,11 +17,10 @@ pageKey: agenda
   {% if numbered %}<ol>{% endif %}
     {% for talk in block.talks %}
     {% if numbered %}<li>{% endif %}
-      <h3>{{ (talk | loc("title")) or L.agenda.tba }}</h3>
+      <h3>{% if talk.paperUrl %}<a href="{{ talk.paperUrl }}" title="{{ L.agenda.paper }}">{% endif %}{{ (talk | loc("title")) or L.agenda.tba }}{% if talk.paperUrl %}</a>{% endif %}</h3>
       {% if talk.speakers.length %}
       <p>{{ L.agenda.presenter }}{{ L.punct.colon }}{% for p in talk.speakers %}<a href="/{{ locale.prefix }}speakers/{{ p.slug }}/">{{ p | loc("name") }}</a>{% set a = p | affiliation %}{% if a %}{{ L.punct.parenOpen }}{{ a }}{{ L.punct.parenClose }}{% endif %}{% if not loop.last %}{{ L.punct.listSep }}{% endif %}{% endfor %}</p>
       {% endif %}
-      {% if talk.paperUrl %}<p><a href="{{ talk.paperUrl }}">{{ L.agenda.paper }}</a></p>{% endif %}
     {% if numbered %}</li>{% endif %}
     {% endfor %}
   {% if numbered %}</ol>{% endif %}

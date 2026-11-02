@@ -16,11 +16,22 @@ a:has(> .vector) { text-decoration: none; font-weight: bold; }
   .vector::before { content: ''; display: inline-block; background-position: left center; background-size: contain; background-repeat: no-repeat; }
 }
 .site-name .vector::before { width: 18rem; height: 3rem; background-image: url('../img/title.svg'); }
-.cans { min-height: 12rem; background: url('../img/canned-datum.png') center / 6rem auto repeat; background-repeat: space; }
+.cans { min-height: 10rem; background: url('../img/canned-datum.png') center / 6rem auto repeat; background-repeat: space; }
+
+/* Intro page */
+.page-intro .cans { min-height: 15rem; background-size: 9rem auto; }
+@media only screen and (min-width: 1024px) {
+  .page-intro section { display: grid; grid: auto-flow / 4fr 6fr; column-gap: 4rem; }
+  .page-intro .cans { grid-row: 1 / span 2; grid-column: 1; }
+}
+
+/* Agenda page */
 .page-agenda main section { margin: 2rem 0; }
 .page-agenda main time { font-variant-numeric: tabular-nums; margin-inline-end: 0.5rem; }
 .page-agenda main h2 { --pico-font-size: 1.25rem; }
 .page-agenda main h3 { --pico-font-size: 1rem; }
+
+/* Speakers page */
 .speaker-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); gap: 1.5rem; list-style: none; padding: 0; }
 .speaker-grid li { text-align: center; list-style: none; }
 .speaker-grid a { display: block; text-decoration: none; }
@@ -30,10 +41,14 @@ a:has(> .vector) { text-decoration: none; font-weight: bold; }
 .speaker-header { display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: start; margin-block-end: 1.5rem; }
 .speaker-header img { width: 12rem; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 0.5rem; }
 .speaker-header h1 { margin-block-end: 0.25rem; }
+
+/* Events page */
 @media only screen and (min-width: 1024px) {
-    .page-events .events { display: grid; grid: auto-flow / 1fr 1fr; column-gap: 4rem; }
+  .page-events .events { display: grid; grid: auto-flow / 1fr 1fr; column-gap: 4rem; }
 }
 .event-poster { display: block; max-width: min(100%, 24rem); height: auto; border-radius: 0.5rem; margin: 1rem auto; }
+
+/* Home page */
 .hero .item { display: flex; padding: 0 0.75rem; justify-content: center; }
 .hero .info { flex-direction: column; gap: 0.5rem; align-items: center; }
 .hero a[role="button"] { margin: 0.5rem 0; }
@@ -44,6 +59,8 @@ a:has(> .vector) { text-decoration: none; font-weight: bold; }
   .hero .title { grid-row: span 3; }
   .hero .cans { grid-column: 1 / span 2; }
 }
+
+/* General footer */
 footer nav { justify-content: center; }
 footer nav ul { flex-wrap: wrap; gap: 1rem; }
 @media only screen and (min-width: 1024px) { footer nav { justify-content: flex-end; } }

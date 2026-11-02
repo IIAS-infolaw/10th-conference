@@ -16,9 +16,12 @@ tw:
   events: { heading: 系列活動, venue: 地點, organizers: 主辦單位, kind_lecture: 專題演講, kind_booktalk: 新書演講 }
   intro:
     heading: 簡介
+    about: |
+      <p>The ASCLS is hosted by Institutum Iurisprudentiae, Academia Sinica of Taiwan (IIAS). It is an academic forum for the exchange of ideas and thoughts about important issues regarding the development of technoscience and its implications to law.</p>
+      <p>In the past, the ASCLS has focused on topics such as <em>Datafied Governance</em> (2024), <em>Emerging Legal Issues for Artificial Intelligence: Legal Liability, Discrimination, Intellectual Property Rights and Beyond</em> (2018), <em>Disciplining or Empowering the Citizenry Through Citizen Science—Historical and Normative Perspectives on Knowledge and Power</em> (2016), <em>Shaping the Future of Global Health Law</em> (2014), <em>Biotechnology, Health Inequality, and Distributive Justice</em> (2012), or <em>Science Governance, Freedom of Research and Pluralist Democracy</em> (2008).</p>
     design: |
-      本次研討會海報以流行藝術為創作靈感，透過重複拼貼台灣家喻戶曉的甜湯罐頭圖案象徵資本市場下的大規模資料重製；在展現台灣日常生活的飲食文化之餘，也藉由喚起電腦揀土豆、八寶配料的記憶符碼，呼應科技寡頭於演算法自動化決策與資料資本的軍備競賽。
-      罐頭圖案標示「寡頭牌資料」，「利他蒐集、無添加物」，並且「AI加量不加價！」，並汲取各家AI公司logo之形狀特徵，繪製成花瓣與花蕊。全圖經手工繪製並著色後，以生成式模型將完稿之向量圖轉換成水彩風格、並後製完稿。
+      <p>本次研討會海報以流行藝術為創作靈感，透過重複拼貼台灣家喻戶曉的甜湯罐頭圖案象徵資本市場下的大規模資料重製；在展現台灣日常生活的飲食文化之餘，也藉由喚起電腦揀土豆、八寶配料的記憶符碼，呼應科技寡頭於演算法自動化決策與資料資本的軍備競賽。</p>
+      <p>罐頭圖案標示「寡頭牌資料」，「利他蒐集、無添加物」，並且「AI加量不加價！」，並汲取各家AI公司logo之形狀特徵，繪製成花瓣與花蕊。全圖經手工繪製並著色後，以生成式模型將完稿之向量圖轉換成水彩風格、並後製完稿。</p>
   logos: { iias: 中央研究院法律學研究所, infolaw: 中央研究院法律學研究所資訊法中心, aicoe: 臺灣 AI 卓越中心 }
   switchLanguage: English
   comingSoon: 敬請期待
@@ -41,9 +44,12 @@ en:
   events: { heading: Series Event, venue: Venue, organizers: Organizers, kind_lecture: Lecture, kind_booktalk: Book Talk }
   intro:
     heading: Introduction
+    about: |
+      <p>The ASCLS is hosted by Institutum Iurisprudentiae, Academia Sinica of Taiwan (IIAS). It is an academic forum for the exchange of ideas and thoughts about important issues regarding the development of technoscience and its implications to law.</p>
+      <p>In the past, the ASCLS has focused on topics such as <em>Datafied Governance</em> (2024), <em>Emerging Legal Issues for Artificial Intelligence: Legal Liability, Discrimination, Intellectual Property Rights and Beyond</em> (2018), <em>Disciplining or Empowering the Citizenry Through Citizen Science—Historical and Normative Perspectives on Knowledge and Power</em> (2016), <em>Shaping the Future of Global Health Law</em> (2014), <em>Biotechnology, Health Inequality, and Distributive Justice</em> (2012), or <em>Science Governance, Freedom of Research and Pluralist Democracy</em> (2008).</p>
     design: |
-      Inspired by Pop Art, the conference poster uses a repeating collage of canned sweet soup to symbolize mass data reproduction under capitalism. The design intentionally referenced two iconic Taiwanese brand desserts, the peanut milk soup and the eight-treasure congee, to play with both the cultural nostalgia and the famous yet now-unsettling “computer picks the peanuts for you” ad trope—paralleling tech oligarchies’ arms race in automated decision-making and data capitalism.
-      The cans are labeled with “Oligarch”-branded “datum,” promised to be “altruistically gathered, no additives,” and “now with more AI!” The floral elements incorporate the shapes of various AI company logos. The artwork was first drawn and colored digitally as a vector graphic, transformed into watercolor style with a generative model, and finalized through post-processing.
+      <p>Inspired by Pop Art, the conference poster uses a repeating collage of canned sweet soup to symbolize mass data reproduction under capitalism. The design intentionally referenced two iconic Taiwanese brand desserts, the peanut milk soup and the eight-treasure congee, to play with both the cultural nostalgia and the famous yet now-unsettling “computer picks the peanuts for you” ad trope—paralleling tech oligarchies’ arms race in automated decision-making and data capitalism.</p>
+      <p>The cans are labeled with <em>Oligarch</em>-branded <em>datum</em>, promised to be <em>altruistically gathered, no additives,</em> and <em>“now with more AI!”</em> The floral elements incorporate the shapes of various AI company logos. The artwork was first drawn and colored digitally as a vector graphic, transformed into watercolor style with a generative model, and finalized through post-processing.</p>
   logos: { iias: "Institutum Iurisprudentiae, Academia Sinica", infolaw: "Information Law Center, IIAS", aicoe: "Taiwan AI Center of Excellence" }
   switchLanguage: 華語
   comingSoon: Coming Soon

@@ -3,4 +3,8 @@ slug: intro/index.html
 pageKey: intro
 ---
 <h1>{{ L.intro.heading }}</h1>
-<p>{{ L.intro.design }}</p>
+<section>
+  <div>{{ L.intro.about | safe }}</div>
+  <aside class="cans"></aside>
+  <div>{{ L.intro.design | safe }}</div>
+</section>
