@@ -4,7 +4,14 @@ pageKey: intro
 ---
 <h1>{{ L.intro.heading }}</h1>
 <section>
-  <div>{{ L.intro.about | safe }}</div>
+  <div>
+    {{ L.intro.about | safe }}
+    <hr/>
+  </div>
   <aside class="cans"></aside>
-  <div>{{ L.intro.design | safe }}</div>
+  <div>
+    {{ L.intro.design | safe }}
+    <hr/>
+    {{ L.intro.history | safe }}
+  </div>
 </section>
