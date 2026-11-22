@@ -42,10 +42,11 @@
         <li><a href="/{{ locale.prefix }}speakers/">{{ L.nav.speakers }}</a></li>
         <li><a href="/{{ locale.prefix }}events/">{{ L.nav.events }}</a></li>
         <li><a href="/{{ locale.prefix }}venue/">{{ L.nav.venue }}</a></li>
+        {% if site.albumsUrl %}<li><a href="{{ site.albumsUrl }}">{{ L.nav.albums }}</a></li>{% endif %}
       </ul>
       <ul>
         <li><a href="{{ altUrl }}" hreflang="{{ altLocale.lang }}">{{ L.switchLanguage }}</a></li>
-        <li><a role="button" href="{{ site.registrationUrl }}">{{ L.nav.register }}</a></li>
+        {% if site.registrationUrl %}<li><a role="button" href="{{ site.registrationUrl }}">{{ L.nav.register }}</a></li>{% endif %}
       </ul>
     </nav>
   </header>

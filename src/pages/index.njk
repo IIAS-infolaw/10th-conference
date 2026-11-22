@@ -9,7 +9,7 @@ pageKey: home
   <div class="info item">
     <div><time datetime="{{ site.date }}">{{ L.date }}</time></div>
     <div class="venue">{{ L.venue.name }}</div>
-    <a role="button" href="{{ site.registrationUrl }}">{{ L.nav.register }}</a>
+    <a role="button" href="{{ site.albumsUrl or '#' }}" {% if not site.albumsUrl %}disabled{% endif %}>{{ L.nav.albums }}</a>
   </div>
   <nav>
     <ul>

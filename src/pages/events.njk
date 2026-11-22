@@ -19,6 +19,7 @@ pageKey: events
   {% for para in (e | loc("description")) | paragraphs %}<p>{{ para }}</p>{% endfor %}
   {% set orgs = e | loc("organizers") %}
   {% if orgs %}<p><small><strong>{{ L.events.organizers }}{{ L.punct.colon }}</strong>{{ orgs | join(L.punct.listSep) }}</small></p>{% endif %}
+  {% if e.presentationUrl %}<p><a role="button" href="{{ e.presentationUrl }}">{{ L.events.presentation }}</a></p>{% endif %}
 </section>
 {% endfor %}
 </div>
